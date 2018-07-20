@@ -1,0 +1,132 @@
+
+@font-face {
+	
+	font-family: "roboto";
+	
+	src: url("OpenSans-Light.ttf");
+	
+}
+
+.headerMenu{
+	
+	font-family: roboto;
+	
+	left: 550px;
+	
+	top: 40px;
+	
+	-webkit-user-select: none;
+	
+	-moz-user-select: none;
+	
+	-ms-user-select: none; 
+	
+}
+
+.headerMenuText{
+	
+	font-size: 24px;
+	
+	text-decoration: none;
+	
+	color: #383838;
+	
+	transition: all 0.5s ease 0s;
+	
+}
+
+.headerMenuText:hover{
+	
+	color: #c1c1c1;
+	
+}
+
+.slideshowImage{
+	
+	width: 800px;
+	
+	height: 600px;
+	
+	margin: 0 auto;
+	
+	border: 20px solid #b2b2b2;
+	
+}
+
+.holder{
+	
+	position: relative;
+	
+	margin: auto;
+	
+	width: 1200px;
+	
+	height: 800px;
+	
+}
+
+.box{
+	
+	position: relative;
+	
+	width: 400px;
+	
+	height: 200px;
+	
+	left: 100px;
+	
+	top: 200px;
+	
+	background: #14e87e;
+	
+	border-radius: 25px 25px;
+	
+}
+
+.button1{
+	
+	width: 100px;
+	
+	height: 40px;
+	
+	color: white;
+	
+	position: relative;
+	
+	text-align: center;
+	
+	vertical-align: middle;
+	
+	color: white;
+	
+	font-family: roboto;
+	
+	background: #939393;
+	
+	-webkit-user-select: none;
+	
+	-moz-user-select: none;
+	
+	-ms-user-select: none;
+	
+	transition: all 0.5s ease 0s;
+	
+}
+
+.button1:hover{
+	
+	background: #c1c1c1;
+	
+}
+
+#jakLogo{
+	
+	position: absolute;
+	
+	width: 100px;
+
+	height: 80px;
+	
+}
+
+
