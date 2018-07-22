@@ -7,6 +7,36 @@
 	
 }
 
+.blurArtImage{
+	
+	width: 300px;
+	
+	height: 250px;
+	
+	position: absolute;
+	
+	margin: auto;
+	
+	border-bottom: 75px solid white;
+	
+	outline: 2px solid #cc42ff;
+	
+}
+
+.backgroundPreviewImage{
+	
+	width:350px;
+	
+	height: 200px;
+	
+	position: absolute;
+	
+	margin: auto;
+	
+	border: 5px solid white;
+	
+}
+
 .headerMenu{
 	
 	font-family: roboto;
@@ -19,7 +49,7 @@
 	
 	-moz-user-select: none;
 	
-	-ms-user-select: none; 
+	-ms-user-select: none;
 	
 }
 
@@ -126,6 +156,12 @@
 	width: 100px;
 
 	height: 80px;
+	
+}
+
+#extrasHolder{
+	
+	height: 2500px;
 	
 }
 
