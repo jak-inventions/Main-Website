@@ -143,6 +143,20 @@
 	
 }
 
+.emailLink{
+	
+	color: black;
+	
+	transition: all 0.5s ease 0s;
+	
+}
+
+.emailLink:hover{
+	
+	color: #a0a0a0;
+	
+}
+
 .button1:hover{
 	
 	background: #c1c1c1;
