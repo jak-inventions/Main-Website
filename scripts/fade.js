@@ -63,7 +63,7 @@ function fadeOut(oldSectionNumber, newSectionNumber){
 	
 	if(newSectionNumber == 1){
 		
-		newSection = "/index";
+		newSection = "index.html";
 		
 	}
 	
@@ -75,7 +75,7 @@ function fadeOut(oldSectionNumber, newSectionNumber){
 	
 	if(newSectionNumber == 2){
 		
-		newSection = "/about";
+		newSection = "about.html";
 		
 	}
 	
@@ -87,7 +87,7 @@ function fadeOut(oldSectionNumber, newSectionNumber){
 	
 	if(newSectionNumber == 3){
 		
-		newSection = "/software";
+		newSection = "software.html";
 		
 	}
 	
@@ -99,7 +99,7 @@ function fadeOut(oldSectionNumber, newSectionNumber){
 	
 	if(newSectionNumber == 4){
 		
-		newSection = "/extras";
+		newSection = "extras.html";
 		
 	}
 	
