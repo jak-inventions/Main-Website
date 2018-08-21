@@ -7,6 +7,18 @@
 	
 }
 
+.unSelectable{
+	
+	-webkit-user-select: none;
+	
+	-moz-user-select: none;
+	
+	-ms-user-select: none;
+	
+	user-select: none;
+	
+}
+
 .blurArtImage{
 	
 	width: 300px;
@@ -194,6 +206,22 @@
 #extrasHolder{
 	
 	height: 2950px;
+	
+}
+
+#returnToHomeText{
+	
+	color: black;
+	
+	transition: all 0.5s ease 0s;
+	
+	text-decoration: none;
+	
+}
+
+#returnToHomeText:hover{
+	
+	color: #b2b2b2;
 	
 }
 
