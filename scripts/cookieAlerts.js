@@ -36,7 +36,7 @@ async function fadeIn(objectId){
 
 function cookieAlert(){
 	
-	if(window.location == "jakinventions.com"){
+	if(window.location == "https://jakinventions.com" || window.location == "http://jakinventions.com"){
 		
 		makeObject("div", "homeHolder", "cookieBox");
 		
