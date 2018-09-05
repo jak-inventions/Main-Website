@@ -1,56 +1,60 @@
 
 
-function makeBox(parentDiv, boxId){
+function makeObject(objectType, parentDiv, objectId){
 	
-	box = document.createElement("div");
+	object = document.createElement(objectType);
 	
-	box.appendChild(document.createTextNode(""));
+	object.appendChild(document.createTextNode(""));
 	
-	document.getElementById(parentDiv).appendChild(box);
+	document.getElementById(parentDiv).appendChild(object);
 	
-	box.id = boxId;
+	object.id = objectId;
 	
 }
 
-function makeText(parentDiv, textId){
+function sleep(ms) {
 	
-	textId = document.createElement("p");
+  return new Promise(resolve => setTimeout(resolve, ms));
+  
+}
+
+async function fadeIn(objectId){
 	
-	textId.appendChild(document.createTextNode(""));
+	/*console.log(document.getElementById(objectId));
 	
-	document.getElementById(parentDiv).appendChild(textId);
+	document.getElementById(objectId).style.opacity = 0;
 	
-	textId.id = textId;
+	for(var i = 0; i < 100; i++){
+		
+		document.getElementById(objectId).style.opacity += 0.01;
+		
+		sleep(100);
+		
+	}*/
 	
 }
 
 function cookieAlert(){
 	
-	/*if(window.location == "jakinventions.com"){
+	if(window.location == "jakinventions.com"){
 		
-		makeBox("homeHolder", "cookieBox");
+		makeObject("div", "homeHolder", "cookieBox");
 		
-		document.getElementById("cookieBox").style.position = "absolute";
-		
-		document.getElementById("cookieBox").style.background = "#1abc9c";
-		
-		document.getElementById("cookieBox").style.width = "200px";
-		
-		document.getElementById("cookieBox").style.height = "75px";
-		
-		document.getElementById("cookieBox").style.top = "400px";
-		
-		document.getElementById("cookieBox").style.left = "0px";
-		
-		makeText("cookieBox", "cookeText");
+		makeObject("p", "cookieBox", "cookieText");
 		
 		document.getElementById("cookieText").innerHTML = "This site uses cookies";
 		
-		document.getElementById("cookieText").style.color = "white";
+		makeObject("a", "cookieBox", "cookieBoxExit");
 		
-		document.getElementById("cookieText").style.fontFamily = "roboto";
+		document.getElementById("cookieBoxExit").innerHTML = "X";
 		
-	}*/
+		document.getElementById("cookieBoxExit").className = "unSelectable";
+		
+		document.getElementById("cookieBoxExit").onclick = function(){document.getElementById("cookieBox").remove();};
+		
+		//fadeIn("cookieBox");
+		
+	}
 	
 }
 

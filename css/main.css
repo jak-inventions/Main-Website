@@ -219,9 +219,63 @@
 	
 }
 
+#cookieBox{
+	
+	position: fixed;
+	
+	background: #54aff9;
+	
+	width: 200px;
+	
+	height: 60px;
+	
+	top: 520px;
+	
+	left: 25px;
+	
+}
+
+#cookieBoxExit{
+	
+	cursor: pointer;
+	
+	color: white;
+	
+	font-family: roboto;
+	
+	position: absolute;
+	
+	left: 185px;
+	
+	top: 0px;
+	
+	transition: all 0.5s ease;
+	
+}
+
+#cookieText{
+	
+	color: white;
+	
+	font-family: roboto;
+	
+	position: absolute;
+	
+	top: 4px;
+	
+	left: 25px;
+	
+}
+
 #returnToHomeText:hover{
 	
 	color: #b2b2b2;
+	
+}
+
+#cookieBoxExit:hover{
+	
+	color: #cecece;
 	
 }
 
