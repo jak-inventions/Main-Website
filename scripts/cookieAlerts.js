@@ -38,9 +38,6 @@ function cookieAlert(){
 	
 	if(window.location == "https://jakinventions.com/" || window.location == "http://jakinventions.com/"){
 		
-		
-		document.cookie = "username=jak";
-		
 		makeObject("div", "homeHolder", "cookieBox");
 		
 		makeObject("p", "cookieBox", "cookieText");
