@@ -36,7 +36,10 @@ async function fadeIn(objectId){
 
 function cookieAlert(){
 	
-	if(window.location == "https://jakinventions.com/" || window.location == "http://jakinventions.com/"){
+	//if(window.location == "https://jakinventions.com/" || window.location == "http://jakinventions.com/"){
+		
+		
+		document.cookie = "username=jak";
 		
 		makeObject("div", "homeHolder", "cookieBox");
 		
@@ -54,7 +57,7 @@ function cookieAlert(){
 		
 		//fadeIn("cookieBox");
 		
-	}
+	//}
 	
 }
 
