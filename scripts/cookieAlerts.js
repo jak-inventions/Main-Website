@@ -46,7 +46,7 @@ function cookieAlert(){
 		
 		makeObject("a", "cookieBox", "cookieBoxExit");
 		
-		document.getElementById("cookieBoxExit").innerHTML = "X";
+		document.getElementById("cookieBoxExit").innerHTML = "Ok";
 		
 		document.getElementById("cookieBoxExit").className = "unSelectable";
 		
