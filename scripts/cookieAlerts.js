@@ -34,9 +34,19 @@ async function fadeIn(objectId){
 	
 }
 
+function initiateCookies(){
+	
+	if(localStorage.getItem("cookiesAccepted") == ""){
+		
+		localStorage.setItem("cookiesAccepted", "false");
+		
+	}
+	
+}
+
 function cookieAlert(){
 	
-	if(window.location == "https://jakinventions.com/" || window.location == "http://jakinventions.com/"){
+	if(localStorage.getItem("cookiesAccepted") == "false"){
 		
 		makeObject("div", "homeHolder", "cookieBox");
 		
@@ -50,7 +60,7 @@ function cookieAlert(){
 		
 		document.getElementById("cookieBoxExit").className = "unSelectable";
 		
-		document.getElementById("cookieBoxExit").onclick = function(){document.getElementById("cookieBox").remove();};
+		document.getElementById("cookieBoxExit").onclick = function(){localStorage.setItem("cookiesAccepted", "true"); document.getElementById("cookieBox").remove();};
 		
 		//fadeIn("cookieBox");
 		
