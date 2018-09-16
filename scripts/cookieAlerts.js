@@ -36,7 +36,7 @@ async function fadeIn(objectId){
 
 function initiateCookies(){
 	
-	if(localStorage.getItem("cookiesAccepted") == ""){
+	if(localStorage.getItem("cookiesAccepted") == null){
 		
 		localStorage.setItem("cookiesAccepted", "false");
 		
@@ -44,15 +44,17 @@ function initiateCookies(){
 	
 }
 
-function cookieAlert(){
+function cookieAlert(parentDiv){
 	
 	if(localStorage.getItem("cookiesAccepted") == "false"){
 		
-		makeObject("div", "homeHolder", "cookieBox");
+		makeObject("div", parentDiv, "cookieBox");
 		
 		makeObject("p", "cookieBox", "cookieText");
 		
 		document.getElementById("cookieText").innerHTML = "This site uses cookies";
+		
+		document.getElementById("cookieText").className = "unSelectable";
 		
 		makeObject("a", "cookieBox", "cookieBoxExit");
 		
