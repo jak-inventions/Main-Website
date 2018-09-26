@@ -46,11 +46,13 @@ function cookieAlert(parentDiv){
 			
 			$(function(){
 			
-				$("#cookieBox").slideUp(500);
+				$("#cookieBox").slideUp(500, function(){
+					
+					document.getElementById("cookieBox").remove();
+					
+				});
 			
 			});
-			
-			document.getElementById("cookieBox").remove();
 			
 		};
 		
