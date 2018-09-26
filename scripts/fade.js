@@ -27,29 +27,11 @@ function fadeIn(sectionNumber){
 		
 	}
 	
-	document.getElementById(fadeInSection).style.opacity = 0;
-	
-	fadeInTime = 25;
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.1;}, fadeInTime * 1);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.2;}, fadeInTime * 2);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.3;}, fadeInTime * 3);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.4;}, fadeInTime * 4);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.5;}, fadeInTime * 5);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.6;}, fadeInTime * 6);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.7;}, fadeInTime * 7);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.8;}, fadeInTime * 8);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 0.9;}, fadeInTime * 9);
-	
-	setTimeout(function(){document.getElementById(fadeInSection).style.opacity = 1.0;}, fadeInTime * 10);
+	$(function(){
+		
+		$("#" + fadeInSection).slideUp(0).slideDown(1000);
+		
+	});
 	
 }
 
@@ -103,31 +85,15 @@ function fadeOut(oldSectionNumber, newSectionNumber){
 		
 	}
 	
-	fadeInTime = 25;
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.9;}, fadeInTime * 1);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.8;}, fadeInTime * 2);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.7;}, fadeInTime * 3);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.6;}, fadeInTime * 4);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.5;}, fadeInTime * 5);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.4;}, fadeInTime * 6);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.3;}, fadeInTime * 7);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.2;}, fadeInTime * 8);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.1;}, fadeInTime * 9);
-	
-	setTimeout(function(){document.getElementById(oldSection).style.opacity = 0.0;}, fadeInTime * 10);
-	
-	setTimeout(function(){document.location.replace(newSection);}, fadeInTime * 10);
-	
-
+	$(function(){
+		
+		$("#" + oldSection).slideUp(1000, function() {
+			
+			location.href = newSection;
+			
+		});
+		
+	});
 	
 }
 

@@ -12,28 +12,6 @@ function makeObject(objectType, parentDiv, objectId){
 	
 }
 
-function sleep(ms) {
-	
-  return new Promise(resolve => setTimeout(resolve, ms));
-  
-}
-
-async function fadeIn(objectId){
-	
-	/*console.log(document.getElementById(objectId));
-	
-	document.getElementById(objectId).style.opacity = 0;
-	
-	for(var i = 0; i < 100; i++){
-		
-		document.getElementById(objectId).style.opacity += 0.01;
-		
-		sleep(100);
-		
-	}*/
-	
-}
-
 function initiateCookies(){
 	
 	if(localStorage.getItem("cookiesAccepted") == null){
@@ -62,9 +40,25 @@ function cookieAlert(parentDiv){
 		
 		document.getElementById("cookieBoxExit").className = "unSelectable";
 		
-		document.getElementById("cookieBoxExit").onclick = function(){localStorage.setItem("cookiesAccepted", "true"); document.getElementById("cookieBox").remove();};
+		document.getElementById("cookieBoxExit").onclick = function(){
+			
+			localStorage.setItem("cookiesAccepted", "true");
+			
+			$(function(){
+			
+				$("#cookieBox").slideUp(500);
+			
+			});
+			
+			document.getElementById("cookieBox").remove();
+			
+		};
 		
-		//fadeIn("cookieBox");
+		$(function(){
+			
+			$("#cookieBox").slideUp(0).slideDown(500);
+			
+		});
 		
 	}
 	
