@@ -93,6 +93,12 @@ function fadeOut(oldSectionNumber, newSectionNumber){
 			
 		});
 		
+		$("#cookieBox").slideUp(1000, function() {
+			
+			location.href = newSection;
+			
+		});
+		
 	});
 	
 }
