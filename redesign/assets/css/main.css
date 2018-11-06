@@ -1,8 +1,44 @@
 
+/* Fonts */
+
 @font-face {
 	
 	font-family: "roboto";
 	
-	src: url("OpenSans-Light.ttf");
+	src: url("fonts/roboto.ttf");
+	
+}
+
+/* Ids */
+
+
+
+/* Classes */
+
+.headerButton{
+	
+	color: #212121;
+	
+	font-size: 25px;
+	
+	transition: 0.5s ease;
+	
+	text-decoration: none;
+	
+	cursor: pointer;
+	
+}
+
+.headerButton:hover{
+	
+	color: #c2c2c2;
+	
+}
+
+/* Other */
+
+*{
+	
+	font-family: roboto;
 	
 }
