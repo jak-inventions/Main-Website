@@ -11,7 +11,13 @@
 
 /* Ids */
 
-
+#mainIcon{
+	
+	width: 120px;
+	
+	height: 100px;
+	
+}
 
 /* Classes */
 
@@ -37,8 +43,16 @@
 
 /* Other */
 
+h1{
+	
+	cursor: default;
+	
+}
+
 *{
 	
 	font-family: roboto;
+	
+	font-weight: light;
 	
 }
