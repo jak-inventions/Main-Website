@@ -37,19 +37,19 @@
 	
 }
 
-#homeContainer{
-	
-	margin: auto;
-	
-	padding-bottom: 50px;
-	
-}
-
 #homePageQuote{
 	
 	text-align: center;
 	
 	font-size: 35px;
+	
+}
+
+/* Containers */
+
+#homeContainer{
+	
+	margin: auto;
 	
 }
 
@@ -93,6 +93,12 @@
 	
 }
 
+.menuSelected{
+	
+	text-decoration: underline;
+	
+}
+
 /* Mobile view */
 
 @media only screen and (max-width: 600px) {
@@ -111,9 +117,30 @@
 		
 	}
 	
-	.mainMenu{
+	#mainIcon{
+		
+		height: 40px;
+		
+		width: 50px;
+		
+	}
+	
+	.mainHeader{
 		
 		font-size: 20px;
+		
+	}
+	
+	
+	.mainMenu{
+		
+		font-size: 15px;
+		
+	}
+	
+	.headerButton{
+		
+		font-size: 15px;
 		
 	}
 	
