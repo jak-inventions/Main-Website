@@ -3,6 +3,25 @@
 
 /* Ids */
 
+#aboutBox{
+	
+	left: 50px;
+
+	top: 50px;
+
+}
+
+#someSoftwareBox{
+	
+	left: 550px;
+	
+	top: 250px;
+	
+	background: #72d9ff;
+	
+	
+}
+
 /* Containers */
 
 #aboutContainer{
@@ -11,13 +30,83 @@
 	
 	display: none;
 	
+	position: relative;
+	
+	width: 1100px;
+	
+	height: 500px;
+	
+	background: white;
+	
 }
 
 /* Classes */
 
+.boxHeader{
+	
+	padding-left: 20px;
+	
+}
+
+.boxText{
+	
+	padding-left: 20px;
+	
+	margin-top: -10px;
+	
+}
+
 /* MobileView */
 
 @media only screen and (max-width: 600px){
+	
+	#aboutContainer{
+		
+		width: 300px;
+	
+		height: 400px;
+		
+	}
+	
+	#aboutBox{
+	
+		left: 25px;
+
+		top: 25px;
+		
+		width: 250px;
+		
+		height: 125px;
+
+	}
+	
+	#someSoftwareBox{
+		
+		left: 25px;
+
+		top: 175px;
+		
+		width: 250px;
+		
+		height: 125px;
+		
+	}	
+	
+	.boxHeader{
+	
+		padding-left: 10px;
+		
+		font-size: 20px;
+	
+	}
+
+	.boxText{
+		
+		padding-left: 10px;
+		
+		margin-top: -15px;
+		
+	}
 	
 }
 
