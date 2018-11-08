@@ -75,21 +75,41 @@
 	
 }
 
+.mainMenu{
+	
+	cursor: default;
+	
+	text-align: center;
+	
+}
+
 /* Mobile view */
 
 @media only screen and (max-width: 600px) {
 	
 	#previewImage{
 		
-		width: 350px;
+		width: 300px;
 		
-		height: 200px;
+		height: 150px;
 	
 	}
 	
 	#homePageQuote{
 		
 		font-size: 18px;
+		
+	}
+	
+	.mainMenu{
+		
+		font-size: 20px;
+		
+	}
+	
+	h1{
+		
+		30px;
 		
 	}
 	
