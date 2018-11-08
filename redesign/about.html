@@ -31,7 +31,7 @@
 
 <script>
 
-transitionIn("homeContainer");
+transitionIn("aboutContainer");
 
 </script>
 
@@ -51,13 +51,13 @@ transitionIn("homeContainer");
 	
 	<p style="cursor: default; text-align: center;">
 		
-		<a class="headerButton" style="text-decoration: underline;">Home</a> | 
+		<a class="headerButton" onclick="transitionOut('aboutContainer', 'index.html')">Home</a> | 
 		
-		<a class="headerButton" onclick="transitionOut('homeContainer', 'about.html')">About</a> | 
+		<a class="headerButton" style="text-decoration: underline;">About</a> | 
 		
-		<a class="headerButton" onclick="transitionOut('homeContainer', 'software.html')">Software</a> | 
+		<a class="headerButton" onclick="transitionOut('aboutContainer', 'software.html')">Software</a> | 
 		
-		<a class="headerButton" onclick="transitionOut('homeContainer', 'extras.html')">Extras</a>
+		<a class="headerButton" onclick="transitionOut('aboutContainer', 'extras.html')">Extras</a>
 		
 	</p>
 	
@@ -71,13 +71,10 @@ transitionIn("homeContainer");
 
 	<!-- Main container -->
 
-	<section id="homeContainer">
+	<section id="aboutContainer">
 	
-		<p id="homePageQuote">A place where software is open and free to all</p>
-		
-		<img id="previewImage" src="assets/images/Cyan-Static-preview.png"/>
+		<p>About Section</p>
 	
 	</section>
 
 </body>
-
