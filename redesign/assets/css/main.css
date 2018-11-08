@@ -75,14 +75,6 @@
 	
 }
 
-.mainMenu{
-	
-	cursor: default;
-	
-	text-align: center;
-	
-}
-
 /* Mobile view */
 
 @media only screen and (max-width: 600px) {
@@ -95,6 +87,17 @@
 	
 	}
 	
+	#homePageQuote{
+		
+		font-size: 18px;
+		
+	}
+	
+	h1{
+		
+		30px;
+		
+	}
 	
 }
 
