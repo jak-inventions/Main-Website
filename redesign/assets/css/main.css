@@ -75,6 +75,18 @@
 	
 }
 
+.mainMenu{
+	
+	-webkit-user-select: none;
+	
+	-moz-user-select: none;
+	
+	-ms-user-select: none;
+	
+	user-select: none;
+	
+}
+
 /* Mobile view */
 
 @media only screen and (max-width: 600px) {
