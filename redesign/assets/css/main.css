@@ -23,35 +23,7 @@
 	
 }
 
-#previewImage{
-	
-	display: block;
-	
-	margin: auto;
-	
-	width: 1100px;
-	
-	height: 600px;
-	
-	border: 5px solid #a5a5a5;
-	
-}
-
-#homePageQuote{
-	
-	text-align: center;
-	
-	font-size: 35px;
-	
-}
-
 /* Containers */
-
-#homeContainer{
-	
-	margin: auto;
-	
-}
 
 /* Classes */
 
@@ -99,23 +71,23 @@
 	
 }
 
+.box{
+	
+	width: 500px;
+	
+	height: 200px;
+	
+	background: #14e87e;
+	
+	border-radius: 5px 30px;
+	
+	margin: auto;
+	
+}
+
 /* Mobile view */
 
-@media only screen and (max-width: 600px) {
-	
-	#previewImage{
-		
-		width: 300px;
-		
-		height: 150px;
-	
-	}
-	
-	#homePageQuote{
-		
-		font-size: 18px;
-		
-	}
+@media only screen and (max-width: 600px){
 	
 	#mainIcon{
 		
@@ -152,17 +124,23 @@ h1{
 	
 	cursor: default;
 	
+	font-weight: lighter;
+	
 }
 
 h2{
 	
 	cursor: default;
 	
+	font-weight: lighter;
+	
 }
 
 h3{
 	
 	cursor: default;
+	
+	font-weight: lighter;
 	
 }
 

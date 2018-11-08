@@ -4,7 +4,7 @@ function transitionOut(oldContainer, target){
 	
 	$(function(){
 		
-		$("#" + oldContainer).fadeOut(1000, function() {
+		$("#" + oldContainer).fadeOut(500, function() {
 			
 			location.href = target;
 			
@@ -20,7 +20,7 @@ function transitionIn(newContainer){
 		
 		$("#" + newContainer).fadeOut(0);
 		
-		$("#" + newContainer).fadeIn(1000);
+		$("#" + newContainer).fadeIn(500);
 		
 	});
 	

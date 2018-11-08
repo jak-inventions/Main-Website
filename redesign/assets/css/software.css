@@ -1,0 +1,25 @@
+
+/* Software CSS */
+
+/* Ids */
+
+/* Containers */
+
+#softwareContainer{
+	
+	margin: auto;
+	
+	display: none;
+	
+}
+
+/* Classes */
+
+/* MobileView */
+
+@media only screen and (max-width: 600px){
+	
+}
+
+/* Other */
+
