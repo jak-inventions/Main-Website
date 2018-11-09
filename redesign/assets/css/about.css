@@ -5,17 +5,17 @@
 
 #aboutBox{
 	
-	left: 50px;
+	margin-left: 50px;
 
-	top: 50px;
+	margin-top: 50px;
 
 }
 
 #someSoftwareBox{
 	
-	left: 550px;
+	margin-left: 550px;
 	
-	top: 250px;
+	margin-top: 250px;
 	
 	background: #72d9ff;
 	
@@ -29,8 +29,6 @@
 	margin: auto;
 	
 	display: none;
-	
-	position: relative;
 	
 	width: 1100px;
 	
@@ -88,9 +86,9 @@
 	
 	#aboutBox{
 	
-		left: 25px;
+		margin-left: 25px;
 
-		top: 25px;
+		margin-top: 25px;
 		
 		width: 250px;
 		
@@ -100,9 +98,9 @@
 	
 	#someSoftwareBox{
 		
-		left: 25px;
+		margin-left: 25px;
 
-		top: 250px;
+		margin-top: 250px;
 		
 		width: 250px;
 		
