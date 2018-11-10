@@ -72,6 +72,30 @@
 	
 }
 
+.someSoftwareImage{
+	
+	margin-left: 30px;
+	
+	width: 100px;
+	
+	height: 100px;
+	
+}
+
+.someSoftwareText{
+	
+	display: inline;
+	
+	margin-top: -15px;
+	
+}
+
+.abnormalWidth{
+	
+	width: 130px;
+	
+}
+
 /* MobileView */
 
 @media only screen and (max-width: 600px){
@@ -106,7 +130,7 @@
 		
 		height: 175px;
 		
-	}	
+	}
 	
 	.boxHeader{
 	
@@ -126,6 +150,28 @@
 		
 	}
 	
+	.abnormalWidth{
+		
+		width: 80px;
+		
+	}
+	
+	.someSoftwareImage{
+	
+		width: 50px;
+		
+		height: 50px;
+		
+		margin-left: 25px;
+	
+	}
+
+	.someSoftwareText{
+		
+		
+		
+	}
+		
 }
 
 /* Other */
