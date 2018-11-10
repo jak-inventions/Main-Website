@@ -22,6 +22,30 @@
 	
 }
 
+#abnormalWidth{
+	
+	width: 130px;
+	
+}
+
+#freextCaption{
+	
+	margin-left: 25px;
+	
+}
+
+#cliprunnerCaption{
+	
+	margin-left: 75px;
+	
+}
+
+#opencalcCaption{
+	
+	margin-left: 45px;
+	
+}
+
 /* Containers */
 
 #aboutContainer{
@@ -90,12 +114,6 @@
 	
 }
 
-.abnormalWidth{
-	
-	width: 130px;
-	
-}
-
 /* MobileView */
 
 @media only screen and (max-width: 600px){
@@ -128,7 +146,13 @@
 		
 		width: 250px;
 		
-		height: 175px;
+		height: 150px;
+		
+	}
+	
+	#abnormalWidth{
+		
+		width: 70px;
 		
 	}
 	
@@ -150,25 +174,31 @@
 		
 	}
 	
-	.abnormalWidth{
-		
-		width: 80px;
-		
-	}
-	
 	.someSoftwareImage{
 	
 		width: 50px;
 		
 		height: 50px;
 		
-		margin-left: 25px;
+		margin-left: 15px;
 	
 	}
 
-	.someSoftwareText{
+	#freextCaption{
+	
+		margin-left: 5px;
+	
+	}
+
+	#cliprunnerCaption{
 		
+		margin-left: 15px;
 		
+	}
+
+	#opencalcCaption{
+		
+		margin-left: 5px;
 		
 	}
 		
