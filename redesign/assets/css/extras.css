@@ -3,6 +3,36 @@
 
 /* Ids */
 
+#extrasBox{
+	
+	margin: auto;
+	
+	height: 135px;
+	
+	background: #75b5ff;
+	
+	margin-top: 50px;
+	
+}
+
+#extrasSecondBox{
+	
+	background: #428aff;
+	
+	color: white;
+	
+	border-radius: 20px;
+	
+	width: 300px;
+	
+	height: 120px;
+	
+	margin: auto;
+	
+	margin-top: 40px;
+	
+}
+
 /* Containers */
 
 #extrasContainer{
@@ -11,6 +41,10 @@
 	
 	display: none;
 	
+	width: 1100px;
+	
+	height: 325px;
+	
 }
 
 /* Classes */
@@ -18,6 +52,26 @@
 /* MobileView */
 
 @media only screen and (max-width: 600px){
+	
+	#extrasContainer{
+		
+		width: 300px;
+	
+	}
+	
+	#extrasBox{
+		
+		width: 300px;
+		
+		height: 125px;
+	
+	}
+
+	#extrasSecondBox{
+		
+		height: 100px;
+		
+	}
 	
 }
 
