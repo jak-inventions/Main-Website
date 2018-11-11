@@ -63,13 +63,13 @@
 
 #brickdropButton{
 	
-	margin-left: 162.5px;
+	margin-left: 150px;
 	
 }
 
 #elementalcounterButton{
 	
-	margin-left: 120px;
+	margin-left: 110px;
 	
 	width: 175px;
 	
@@ -77,7 +77,7 @@
 
 #rippleButton{
 	
-	margin-left: 162.5px;
+	margin-left: 150px;
 	
 }
 
@@ -114,6 +114,8 @@
 	text-align: center;
 	
 	margin-top: 0px;
+	
+	padding-left: 0px;
 	
 }
 

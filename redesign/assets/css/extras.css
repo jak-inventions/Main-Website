@@ -33,6 +33,30 @@
 	
 }
 
+#wallpapersBox{
+	
+	background: #00ccb7;
+	
+	border-radius: 5px;
+	
+	margin: auto;
+	
+	margin-top: 25px;
+	
+	width: 1000px;
+	
+	height: 1400px;
+	
+}
+
+#wallpaperBoxHeader{
+	
+	padding-left: 0px;
+	
+	text-align: center;
+	
+}
+
 /* Containers */
 
 #extrasContainer{
@@ -43,11 +67,55 @@
 	
 	width: 1100px;
 	
-	height: 325px;
+	height: 1865px;
+	
+	background: orange;
 	
 }
 
 /* Classes */
+
+.wallpaperPreview{
+	
+	width: 300px;
+	
+	height: 175px;
+	
+	border: 5px solid white;
+	
+	display: inline-block;
+	
+	margin-left: 15px;
+	
+	margin-bottom: 15px;
+	
+}
+
+.wallpaperDownload{
+	
+	display: inline-block;
+	
+	margin: auto;
+	
+	margin-bottom: 15px;
+	
+}
+
+.columnOneButton{ margin-left: 120px; }
+
+.columnTwoButton{ margin-left: 225px; }
+
+.columnThreeButton{ margin-left: 230px; }
+
+.lastPreview{
+	
+	display: block;
+	
+	margin-left: auto;
+	
+	margin-bottom: 15px;
+	
+}
 
 /* MobileView */
 
