@@ -147,6 +147,10 @@
 
 .columnThreeDownload{margin-left: 230px; }
 
+.lastColumnButton{ margin-left: 110px; }
+
+.lastPreviewRow{ width: 333px; }
+
 /* MobileView */
 
 @media only screen and (max-width: 600px){
@@ -155,7 +159,7 @@
 		
 		width: 300px;
 		
-		height: 1800px;
+		height: 1000px;
 	
 	}
 	
@@ -177,7 +181,7 @@
 		
 		width: 300px;
 		
-		height: 700px;
+		height: 625px;
 		
 	}
 	
@@ -216,6 +220,10 @@
 	.columnTwoDownload{ margin-left: 25px; }
 
 	.columnThreeDownload{margin-left: 25px; }
+	
+	.lastColumnButton{ margin-left: 15px; }
+	
+	.lastPreviewRow{ width: 100px; }
 	
 }
 
