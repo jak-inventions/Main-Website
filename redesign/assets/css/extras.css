@@ -45,7 +45,7 @@
 	
 	width: 1000px;
 	
-	height: 1425px;
+	height: 1400px;
 	
 }
 
@@ -69,11 +69,83 @@
 	
 	height: 1800px;
 	
-	background: orange;
-	
 }
 
 /* Classes */
+
+.wallpaperPreview{
+	
+	display: inline-block;
+	
+	width: 300px;
+	
+	height: 175px;
+	
+	margin: auto;
+	
+	margin-left: 15px;
+	
+	border: 5px solid white;
+	
+}
+
+.previewRow{
+	
+	display: block;
+	
+	margin: auto;
+	
+	margin-bottom: 25px;
+	
+	width: 1000px;
+	
+}
+
+.wallpaperDownload{
+	
+	display: inline-block;
+	
+	margin-top: 10px;
+	
+	margin-left: 0px;
+	
+	text-align: center;
+	
+	background: #666666;
+	
+	width: 100px;
+	
+	height: 35px;
+	
+	text-decoration: none;
+	
+	padding-top: 10px;
+	
+	color: white;
+	
+	border-radius: 5px;
+	
+	transition: 0.5s ease;
+	
+}
+
+.wallpaperDownload:hover{
+	
+	background: #b2b2b2;
+	
+}
+
+.wallpaperDownload:active{
+	
+	background: #cccccc;
+	
+}
+
+.columnOneDownload{ margin-left: 110px; }
+
+.columnTwoDownload{ margin-left: 230px; }
+
+.columnThreeDownload{margin-left: 230px; }
 
 /* MobileView */
 
@@ -100,6 +172,42 @@
 		height: 100px;
 		
 	}
+	
+	#wallpapersBox{
+		
+		width: 300px;
+		
+		height: 700px;
+		
+	}
+	
+	.wallpaperPreview{
+		
+		width: 85px;
+		
+		height: 50px;
+		
+		border: 2px solid white;
+		
+		margin-left: 6px;
+		
+	}
+	
+	.wallpaperDownload{
+		
+		width: 80px;
+		
+		height: 25px;
+		
+		font-size: 12px;
+		
+	}
+	
+	.columnOneDownload{ margin-left: 0px; }
+
+	.columnTwoDownload{ margin-left: 0px; }
+
+	.columnThreeDownload{margin-left: 0px; }
 	
 }
 
