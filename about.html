@@ -1,101 +1,132 @@
 
-<html>
+<title>Jak Inventions</title>
 
-<link rel="stylesheet" href="css/main.css"/>
+<!-- Icon import -->
 
-<link rel="shortcut icon" href="icon.png"/>
+<link rel="shortcut icon" href="assets/images/icon.png"/>
 
-<script src="scripts/fade.js"></script>
+<!-- Meta data stuff -->
 
-<script src="scripts/cookieAlerts.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
 
-<script src="scripts/main.js"></script>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 
-<script src="scripts/jQuery/jquery-3.3.1.min.js"></script>
+<link rel="apple-touch-icon" href="assets/images/icon.png"/>
 
-<!-- prior to page load stuff -->
+<meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
 
-<script>
-
-fadeIn(2);
-
-initiateCookies();
-
-</script>
+<meta name="author" content="Jak"/>
 
 <meta charset="utf-8"/>
 
-<title>Jak inventions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<header style="text-align: center;">
+<!-- Script import -->
 
-<h1 id="home" class="headerMenu" style="text-align: center;">Jak Inventions<img id="jakLogo" title="Jak Inventions Logo" alt="Jak Inventions Logo" src="icon.png"/></h1>
+<script src="assets/scripts/transition.js"></script>
 
-<p id="home" class="headerMenu" style="text-align: center;">
-<a onclick="fadeOut(2, 1);" class="headerMenuText" style="cursor : pointer">Home</a> | 
-<a class="headerMenuText" style="text-decoration: underline; cursor : pointer">About</a> | 
-<a onclick="fadeOut(2, 3);" class="headerMenuText" style="cursor : pointer">Software</a> | 
-<a onclick="fadeOut(2, 4);" class="headerMenuText" style="cursor : pointer">Extras</a>
-</p>
+<script src="assets/scripts/main.js"></script>
 
+<script src="assets/scripts/jQuery/jquery-3.3.1.min.js"></script>
+
+<!-- Css import -->
+
+<link rel="stylesheet" href="assets/css/main.css"/>
+
+<link rel="stylesheet" href="assets/css/home.css"/>
+
+<link rel="stylesheet" href="assets/css/about.css"/>
+
+<link rel="stylesheet" href="assets/css/software.css"/>
+
+<link rel="stylesheet" href="assets/css/extras.css"/>
+
+<!-- The header -->
+
+<header id="mainHeader">
+
+	<!-- Main title -->
+	
+	<h1 class="mainHeader">Jak Inventions <img id="mainIcon" src="assets/images/icon.png"/></h1>
+	
+	<!-- menu -->
+	
+	<p class="mainMenu" style="cursor: default; text-align: center;">
+		
+		<a class="headerButton" onclick="transitionOut('aboutContainer', 'index.html')">Home</a> | 
+		
+		<a class="headerButton menuSelected">About</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('aboutContainer', 'software.html')">Software</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('aboutContainer', 'extras.html')">Extras</a>
+		
+	</p>
+	
 </header>
 
-<!--Under here is each section of the site-->
+<!-- Everything below here should be different for each page -->
 
-<body id="aboutBody" style="position: relative;" onload="cookieAlert('aboutBody');">
+<!-- Body -->
 
-<div id="aboutHolder" class="holder">
+<body onload='transitionIn("aboutContainer");'>
 
-<div class="box" style="left: 78px; top: 20px; width: 500px; height: 200px; border-radius: 5px 50px;">
+	<!-- Main container -->
 
-<h2 style="font-family: roboto; font-weight: normal; left: 25px; position: absolute;">About</h2>
-
-<p style="font-size: 15px; font-family: roboto; font-weight: normal; left: 25px; top: 40px; position: absolute; line-break: break-all; width: 90%;">
-Established in 2016, Jak Inventions is a small software organization 
-that makes software, such as FreeXT and Elemental life counter.
-<br/>
-<br/>
-If you have any concerns contact Jak Inventions at : <a class="emailLink" href="mailto:support@jakinventions.com">support@jakinventions.com</a>
-</p>
-
-</h2>
-
-</div>
-
-<div class="box" style="left: 575px; top: 20px; width: 500px; height: 200px; border-radius: 5px 50px; background: #72d9ff;">
-
-<h2 style="font-family: roboto; font-weight: normal; left: 25px; position: absolute;">Some Jak Inventions Software</h2>
-
-<img title="FreeXT Logo" alt="FreeXT Logo" src="photos/FreeXT-Logo.png" style="position: absolute; height: 100px; width: 100px; left: 60px; top: 60px;"/>
-
-<p style="font-size: 15px; font-family: roboto; font-weight: normal; left: 80px; top: 150px; position: absolute; line-break: break-all;">
-FreeXT
-</p>
-
-<img title="ClipRunner Logo" alt="ClipRunner Logo" src="photos/ClipRunner-Logo.png" style="position: absolute; height: 100px; width: 150px; left: 190px; top: 60px;"/>
-
-<p style="font-size: 15px; font-family: roboto; font-weight: normal; left: 230px; top: 150px; position: absolute; line-break: break-all;">
-ClipRunner
-</p>
-
-<img title="OpenCalc Logo" alt="OpenCalc Logo" src="photos/OpenCalc-Logo.png" style="position: absolute; height: 100px; width: 150px; left: 350px; top: 60px;"/>
-
-<p style="font-size: 15px; font-family: roboto; font-weight: normal; left: 360px; top: 150px; position: absolute; line-break: break-all;">
-OpenCalc
-</p>
-
-</h2>
-
-</div>
-
-</div>
-
-<div id="aboutFooter" style="text-align: center; padding-bottom: 25px;">
-
-<p style="font-family: roboto;">&copy; Jak Inventions 2018</p>
-
-</div>
+	<section id="aboutContainer">
+		
+		<div id="aboutBox" class="box">
+		
+			<h2 class="boxHeader">About</h2>
+			
+			<p class="boxText">
+			
+				Established in 2016, Jak Inventions is a small software organization that makes software, such as FreeXT and Elemental life counter.
+				
+				<br/><br/>
+				
+				If you have any concerns contact Jak Inventions at : 
+				
+				<br/>
+				
+				<a class="emailLink" href="mailto:support@jakinventions.com?Subject=Hello%20again">support@jakinventions.com</a>
+			
+			</p>
+		
+		</div>
+		
+		<div id="someSoftwareBox" class="box">
+		
+			<h2 class="boxHeader">Some Jak Inventions Software</h2>
+			
+			<div>
+			
+				<img class="someSoftwareImage" src="assets/images/FreeXT-Logo.png"></img>
+				
+				<img id="abnormalWidth" class="someSoftwareImage" src="assets/images/ClipRunner-Logo.png"></img>
+				
+				<img class="someSoftwareImage" src="assets/images/OpenCalc-Logo.png"></img>
+			
+			</div>
+			
+			<div>
+				
+				<p id="freextCaption" class="someSoftwareText boxText">FreeXT</p>
+					
+				<p id="cliprunnerCaption" class="someSoftwareText boxText">ClipRunner</p>
+					
+				<p id="opencalcCaption" class="someSoftwareText boxText">OpenCalc</p>
+			
+			</div>
+		
+		</div>
+		
+		<footer>
+	
+			<p style="text-align: center;">&copy; Jak Inventions 2018</p>
+	
+		</footer>
+	
+	</section>
 
 </body>
-
-</html>

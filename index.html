@@ -1,84 +1,91 @@
 
-<html>
+<title>Jak Inventions</title>
 
-<link rel="stylesheet" href="css/main.css"/>
+<!-- Icon import -->
 
-<link rel="shortcut icon" href="icon.png"/>
+<link rel="shortcut icon" href="assets/images/icon.png"/>
 
-<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- Meta data stuff -->
 
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
 
-<link rel="apple-touch-icon" href="icon.png">
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 
-<meta name="apple-mobile-web-app-title" content="Jak Inventions">
+<link rel="apple-touch-icon" href="assets/images/icon.png"/>
 
-<meta name="author" content="Jak">
+<meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
 
-<script src="scripts/fade.js"></script>
-
-<script src="scripts/cookieAlerts.js"></script>
-
-<script src="scripts/main.js"></script>
-
-<script src="scripts/jQuery/jquery-3.3.1.min.js"></script>
-
-<!-- prior to page load stuff -->
-
-<script>
-
-fadeIn(1);
-
-initiateCookies();
-
-</script>
+<meta name="author" content="Jak"/>
 
 <meta charset="utf-8"/>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120167813-2"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-120167813-2');
-</script>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
 
-<title>Jak inventions</title>
+<!-- Script import -->
 
-<header style="text-align: center;">
+<script src="assets/scripts/transition.js"></script>
 
-<h1 id="home" class="headerMenu" style="text-align: center;">Jak Inventions<img id="jakLogo" title="Jak Inventions Logo" alt="Jak Inventions Logo" src="icon.png"/></h1>
+<script src="assets/scripts/main.js"></script>
 
-<p id="home" class="headerMenu" style="text-align: center;">
-<a class="headerMenuText" style="text-decoration: underline; cursor : pointer">Home</a> | 
-<a onclick="fadeOut(1, 2);" class="headerMenuText" style="cursor : pointer">About</a> | 
-<a onclick="fadeOut(1, 3);" class="headerMenuText" style="cursor : pointer">Software</a> | 
-<a onclick="fadeOut(1, 4);" class="headerMenuText" style="cursor : pointer">Extras</a>
-</p>
+<script src="assets/scripts/jQuery/jquery-3.3.1.min.js"></script>
 
+<!-- Css import -->
+
+<link rel="stylesheet" href="assets/css/main.css"/>
+
+<link rel="stylesheet" href="assets/css/home.css"/>
+
+<link rel="stylesheet" href="assets/css/about.css"/>
+
+<link rel="stylesheet" href="assets/css/software.css"/>
+
+<link rel="stylesheet" href="assets/css/extras.css"/>
+
+<!-- The header -->
+
+<header id="mainHeader">
+
+	<!-- Main title -->
+	
+	<h1 class="mainHeader">Jak Inventions <img id="mainIcon" src="assets/images/icon.png"/></h1>
+	
+	<!-- menu -->
+	
+	<p class="mainMenu" style="cursor: default; text-align: center;">
+		
+		<a class="headerButton menuSelected">Home</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('homeContainer', 'about.html')">About</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('homeContainer', 'software.html')">Software</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('homeContainer', 'extras.html')">Extras</a>
+		
+	</p>
+	
 </header>
 
-<!--Under here is each section of the site-->
+<!-- Everything below here should be different for each page -->
 
-<body id="homeBody" style="position: relative;" onload="cookieAlert('homeBody');">
+<!-- Body -->
 
-<div id="homeHolder" class="holder" style="text-align: center;">
+<body onload='transitionIn("homeContainer");'>
 
-<h2 class="unSelectable" style="color: white; font-weight: normal; font-family: roboto; font-size: 1px; margin-top: -20px;">Jak Inventions</h2>
+	<!-- Main container -->
 
-<h2 style="font-weight: normal; font-family: roboto; font-size: 36px;">A place where software is open and free to all</h2>
-
-<img title="Cyan Static" alt="Cyan Static" src="photos/Cyan-Static-preview.png" style="width: 1000px; height: 600px; border: 5px solid #a5a5a5;"/>
-
-<div id="homeFooter">
-
-<p style="font-family: roboto;">&copy; Jak Inventions 2018</p>
-
-</div>
-
-</div>
+	<section id="homeContainer">
+	
+		<p id="homePageQuote">A place where software is open and free to all</p>
+		
+		<img id="previewImage" src="assets/images/Cyan-Static-preview.png"/>
+		
+		<footer>
+	
+			<p style="text-align: center;">&copy; Jak Inventions 2018</p>
+	
+		</footer>
+	
+	</section>
 
 </body>
 
-</html>

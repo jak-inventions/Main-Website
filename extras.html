@@ -1,243 +1,188 @@
 
-<html>
+<title>Jak Inventions</title>
 
-<link rel="stylesheet" href="css/main.css"/>
+<!-- Icon import -->
 
-<link rel="shortcut icon" href="icon.png"/>
+<link rel="shortcut icon" href="assets/images/icon.png"/>
 
-<script src="scripts/fade.js"></script>
+<!-- Meta data stuff -->
 
-<script src="scripts/cookieAlerts.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
 
-<script src="scripts/main.js"></script>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 
-<script src="scripts/jQuery/jquery-3.3.1.min.js"></script>
+<link rel="apple-touch-icon" href="assets/images/icon.png"/>
 
-<!-- prior to page load stuff -->
+<meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
 
-<script>
-
-fadeIn(4);
-
-initiateCookies();
-
-</script>
+<meta name="author" content="Jak"/>
 
 <meta charset="utf-8"/>
 
-<title>Jak inventions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<header style="text-align: center;">
+<!-- Script import -->
 
-<h1 id="home" class="headerMenu" style="text-align: center;">Jak Inventions<img id="jakLogo" title="Jak Inventions Logo" alt="Jak Inventions Logo" src="icon.png"/></h1>
+<script src="assets/scripts/transition.js"></script>
 
-<p id="home" class="headerMenu" style="text-align: center;">
-<a onclick="fadeOut(4, 1);" class="headerMenuText" style="cursor : pointer">Home</a> | 
-<a onclick="fadeOut(4, 2);" class="headerMenuText" style="cursor : pointer">About</a> | 
-<a onclick="fadeOut(4, 3);" class="headerMenuText" style="cursor : pointer">Software</a> | 
-<a class="headerMenuText" style="text-decoration: underline; cursor : pointer">Extras</a>
-</p>
+<script src="assets/scripts/main.js"></script>
 
+<script src="assets/scripts/jQuery/jquery-3.3.1.min.js"></script>
+
+<!-- Css import -->
+
+<link rel="stylesheet" href="assets/css/main.css"/>
+
+<link rel="stylesheet" href="assets/css/home.css"/>
+
+<link rel="stylesheet" href="assets/css/about.css"/>
+
+<link rel="stylesheet" href="assets/css/software.css"/>
+
+<link rel="stylesheet" href="assets/css/extras.css"/>
+
+<!-- The header -->
+
+<header id="mainHeader">
+
+	<!-- Main title -->
+	
+	<h1 class="mainHeader">Jak Inventions <img id="mainIcon" src="assets/images/icon.png"/></h1>
+	
+	<!-- menu -->
+	
+	<p class="mainMenu" style="cursor: default; text-align: center;">
+		
+		<a class="headerButton" onclick="transitionOut('extrasContainer', 'index.html')">Home</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('extrasContainer', 'about.html')">About</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('extrasContainer', 'software.html')">Software</a> | 
+		
+		<a class="headerButton menuSelected">Extras</a>
+		
+	</p>
+	
 </header>
 
-<!--Under here is each section of the site-->
+<!-- Everything below here should be different for each page -->
 
-<body id="extrasBody" style="position: relative;" onload="cookieAlert('extrasBody');">
+<!-- Body -->
 
-<div id="extrasHolder" class="holder">
+<body onload='transitionIn("extrasContainer");'>
 
-<div class="box" style="left: 350px; top: 20px; width: 500px; height: 125px; border-radius: 5px 25px; background: #75b5ff;">
+	<!-- Main container -->
 
-<h2 style="font-family: roboto; font-weight: normal; left: 15px; bottom: 65px; position: absolute;">Extras</h2>
-
-<p style="font-size: 15px; font-family: roboto; font-weight: normal; left: 15px; top: 25px; position: absolute; line-break: break-all; width: 90%;">
-The main focus of Jak Inventions is software, but that is not all Jak Inventions has to offer.
-We have what we like to call extras, which are our other products like wallpapers.
-</p>
-
-</div>
-
-
-<div class="box" style="left: 450px; top: 40px; width: 300px; height: 110px; border-radius: 25px 25px; background: #428aff;">
-
-<p style="font-size: 15px; font-family: roboto; font-weight: normal; left: 15px; top: 0px; position: absolute; line-break: break-all; width: 90%; color: white;">
-Wallpapers made by Jak Inventions are
-made in Gimp, and are fair use under
-the creative commons 1.0 universal license.
-</p>
-
-</div>
-
-<div class="box" style="left: 0px; top: 50px; width: 1200px; height: 1550px; border-radius: 5px 5px; background: #00ccb7; text-align: center;">
-
-<h2 style="font-family: roboto; font-weight: normal;">Wallpapers</h2>
-
-<img title="Shadow" src="photos/Shadow.png" class="backgroundPreviewImage" style="left: 20px; top: 50px;"/>
-
-<div class="button1" style="left: 150px; top: 227.5px;">
+	<section id="extrasContainer">
 	
-	<a href="photos/Shadow.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Ice World" src="photos/Ice-World.png" class="backgroundPreviewImage" style="left: 420px; top: 50px;"/>
-
-<div class="button1" style="left: 550px; top: 170px;">
-
-	<a href="photos/Ice-World.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Far Light" src="photos/Far-Light.png" class="backgroundPreviewImage" style="left: 820px; top: 50px;"/>
-
-<div class="button1" style="left: 960px; top: 115px;">
-
-	<a href="photos/Far-Light.png" style="text-decoration: none; color: white;" download>
-	
-	<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Cyan Static" src="photos/Cyan-Static-preview.png" class="backgroundPreviewImage" style="left: 20px; top: 350px;"/>
-
-<div class="button1" style="left: 150px; top: 362.5px;">
-
-	<a href="photos/Cyan-Static.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Green Static" src="photos/Green-Static-preview.png" class="backgroundPreviewImage" style="left: 420px; top: 350px;"/>
-
-<div class="button1" style="left: 550px; top: 305px;">
-
-	<a href="photos/Green-Static.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
+		<div id="extrasBox" class="box">
 		
-	</a>
+			<h2 class="boxHeader">Extras</h2>
+			
+			<p class="boxText">
+				
+				The main focus of Jak Inventions is software, but that is not all Jak Inventions has to offer. We have what we like to call extras, which are our other products like wallpapers.
+				
+			</p>
+		
+		</div>
+		
+		<div id="extrasSecondBox" class="box">
+		
+			<p class="boxText">
+			
+				<br/>
+				
+				Wallpapers made by Jak Inventions are made in Gimp, and are fair use under the creative commons 1.0 universal license.
+				
+			</p>
+		
+		</div>
+		
+		<div id="wallpapersBox" class="box">
+		
+			<h1 id="wallpaperBoxHeader" class="boxHeader">Wallpaper</h1>
+			
+			<div class="previewRow">
+			
+				<img class="wallpaperPreview" src="assets/images/Shadow.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Ice-World.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Far-Light.png"/>
+				
+				<a class="wallpaperDownload columnOneDownload" href="assets/images/Shadow.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnTwoDownload" href="assets/images/Ice-World.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnThreeDownload" href="assets/images/Far-Light.png" download>Download</a>
+				
+			</div>
+			
+			<div class="previewRow">
+			
+				<img class="wallpaperPreview" src="assets/images/Cyan-Static-preview.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Green-Static-preview.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Blue-Static-preview.png"/>
+				
+				<a class="wallpaperDownload columnOneDownload" href="assets/images/Cyan-Static.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnTwoDownload" href="assets/images/Green-Static.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnThreeDownload" href="assets/images/Blue-Static.png" download>Download</a>
+				
+			</div>
+			
+			<div class="previewRow">
+			
+				<img class="wallpaperPreview" src="assets/images/Cyan-Static-2.0-preview.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Green-Static-2.0.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Blue-Static-2.0-preview.png"/>
+				
+				<a class="wallpaperDownload columnOneDownload" href="assets/images/Cyan-Static-2.0.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnTwoDownload" href="assets/images/Green-Static-2.0.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnThreeDownload" href="assets/images/Blue-Static-2.0.png" download>Download</a>
+				
+			</div>
+			
+			<div class="previewRow">
+			
+				<img class="wallpaperPreview" src="assets/images/Green-Webs.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Blue-Webs.png"/>
+				
+				<img class="wallpaperPreview" src="assets/images/Purple-Webs.png"/>
+				
+				<a class="wallpaperDownload columnOneDownload" href="assets/images/Green-Webs.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnTwoDownload" href="assets/images/Blue-Webs.png" download>Download</a>
+				
+				<a class="wallpaperDownload columnThreeDownload" href="assets/images/Purple-Webs.png" download>Download</a>
+				
+			</div>
+			
+			<div class="previewRow lastPreviewRow">
+			
+				<img class="wallpaperPreview" src="assets/images/Cyan-Ice.png"/>
+				
+				<a class="wallpaperDownload columnTwoDownload lastColumnButton" href="assets/images/Cyan-Ice.png" download>Download</a>
+				
+			</div>
+		
+		</div>
+		
+		<footer>
 	
-</div>
-
-<img title="Blue Static" src="photos/Blue-Static-preview.png" class="backgroundPreviewImage" style="left: 820px; top: 350px;"/>
-
-<div class="button1" style="left: 960px; top: 250px;">
-
-	<a href="photos/Blue-Static.png" style="text-decoration: none; color: white;" download>
+			<p style="text-align: center;">&copy; Jak Inventions 2018</p>
 	
-		<p style="position: relative; top: 8px;">Download</p>
+		</footer>
 	
-	</a>
-	
-</div>
-
-<img title="Cyan Static 2.0" src="photos/Cyan-Static-2.0-preview.png" class="backgroundPreviewImage" style="left: 20px; top: 650px;"/>
-
-<div class="button1" style="left: 150px; top: 500px;">
-
-	<a href="photos/Cyan-Static-2.0.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Green Static 2.0" src="photos/Green-Static-2.0.png" class="backgroundPreviewImage" style="left: 420px; top: 650px;"/>
-
-<div class="button1" style="left: 550px; top: 445px;">
-
-	<a href="photos/Green-Static-2.0.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Blue Static 2.0" src="photos/Blue-Static-2.0-preview.png" class="backgroundPreviewImage" style="left: 820px; top: 650px;"/>
-
-<div class="button1" style="left: 960px; top: 390px;">
-
-	<a href="photos/Blue-Static-2.0.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Green Webs" src="photos/Green-Webs.png" class="backgroundPreviewImage" style="left: 20px; top: 950px;"/>
-
-<div class="button1" style="left: 150px; top: 630px;">
-
-	<a href="photos/Green-Webs.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Blue Webs" src="photos/Blue-Webs.png" class="backgroundPreviewImage" style="left: 420px; top: 950px;"/>
-
-<div class="button1" style="left: 550px; top: 575px;">
-
-	<a href="photos/Blue-Webs.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Purple Webs" src="photos/Purple-Webs.png" class="backgroundPreviewImage" style="left: 820px; top: 950px;"/>
-
-<div class="button1" style="left: 960px; top: 520px;">
-
-	<a href="photos/Purple-Webs.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-<img title="Cyan Ice" src="photos/Cyan-Ice.png" class="backgroundPreviewImage" style="left: 420px; top: 1250px;"/>
-
-<div class="button1" style="left: 550px; top: 760px;">
-
-	<a href="photos/Cyan-Ice.png" style="text-decoration: none; color: white;" download>
-	
-		<p style="position: relative; top: 8px;">Download</p>
-	
-	</a>
-	
-</div>
-
-</div>
-
-</div>
-
-<div id="extrasFooter" style="text-align: center; height: 65px;">
-
-<p style="font-family: roboto;">&copy; Jak Inventions 2018</p>
-
-</div>
+	</section>
 
 </body>
-
-</html>

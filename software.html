@@ -1,108 +1,122 @@
 
-<html>
+<title>Jak Inventions</title>
 
-<link rel="stylesheet" href="css/main.css"/>
+<!-- Icon import -->
 
-<link rel="shortcut icon" href="icon.png"/>
+<link rel="shortcut icon" href="assets/images/icon.png"/>
 
-<script src="scripts/fade.js"></script>
+<!-- Meta data stuff -->
 
-<script src="scripts/cookieAlerts.js"></script>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
 
-<script src="scripts/main.js"></script>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 
-<script src="scripts/jQuery/jquery-3.3.1.min.js"></script>
+<link rel="apple-touch-icon" href="assets/images/icon.png"/>
 
-<!-- prior to page load stuff -->
+<meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
 
-<script>
-
-fadeIn(3);
-
-initiateCookies();
-
-</script>
+<meta name="author" content="Jak"/>
 
 <meta charset="utf-8"/>
 
-<title>Jak inventions</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<header style="text-align: center;">
+<!-- Script import -->
 
-<h1 id="home" class="headerMenu" style="text-align: center;">Jak Inventions<img id="jakLogo" title="Jak Inventions Logo" alt="Jak Inventions Logo" src="icon.png"/></h1>
+<script src="assets/scripts/transition.js"></script>
 
-<p id="home" class="headerMenu" style="text-align: center;">
-<a onclick="fadeOut(3, 1);" class="headerMenuText" style="cursor : pointer">Home</a> | 
-<a onclick="fadeOut(3, 2);" class="headerMenuText" style="cursor : pointer">About</a> | 
-<a class="headerMenuText" style="text-decoration: underline; cursor : pointer">Software</a> | 
-<a onclick="fadeOut(3, 4);" class="headerMenuText" style="cursor : pointer">Extras</a>
-</p>
+<script src="assets/scripts/main.js"></script>
 
+<script src="assets/scripts/jQuery/jquery-3.3.1.min.js"></script>
+
+<!-- Css import -->
+
+<link rel="stylesheet" href="assets/css/main.css"/>
+
+<link rel="stylesheet" href="assets/css/home.css"/>
+
+<link rel="stylesheet" href="assets/css/about.css"/>
+
+<link rel="stylesheet" href="assets/css/software.css"/>
+
+<link rel="stylesheet" href="assets/css/extras.css"/>
+
+<!-- The header -->
+
+<header id="mainHeader">
+
+	<!-- Main title -->
+	
+	<h1 class="mainHeader">Jak Inventions <img id="mainIcon" src="assets/images/icon.png"/></h1>
+	
+	<!-- menu -->
+	
+	<p class="mainMenu" style="cursor: default; text-align: center;">
+		
+		<a class="headerButton" onclick="transitionOut('softwareContainer', 'index.html')">Home</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('softwareContainer', 'about.html')">About</a> | 
+		
+		<a class="headerButton menuSelected">Software</a> | 
+		
+		<a class="headerButton" onclick="transitionOut('softwareContainer', 'extras.html')">Extras</a>
+		
+	</p>
+	
 </header>
 
-<!--Under here is each section of the site-->
+<!-- Everything below here should be different for each page -->
 
-<body id="softwareBody" style="position: relative;" onload="cookieAlert('softwareBody');">
+<!-- Body -->
 
-<div id="softwareHolder" class="holder">
+<body onload='transitionIn("softwareContainer");'>
 
-<div class="box" style="left: 175px; top: 20px; width: 350px; height: 175px; background: #314691; text-align: center;">
+	<!-- Main container -->
 
-<h2 style="font-family: roboto; font-weight: normal; left: 25px; color: white;">Windows Applications</h2>
-
-<div onclick="window.open('https://opencalc.jakinventions.com', '_blank');" class="button1" style="cursor : pointer; left: 50px; bottom: 5px;"><p style="position: relative; top: 8px;">OpenCalc</p></div>
-
-<div onclick="window.open('https://freext.jakinventions.com', '_blank');" class="button1" style="cursor : pointer; left: 200px; bottom: 60px;"><p style="position: relative; top: 8px;">FreeXT</p></div>
-
-<div onclick="window.open('https://cliprunner.jakinventions.com', '_blank');" class="button1" style="cursor : pointer; left: 125px; bottom: 55px;"><p style="position: relative; top: 8px;">ClipRunner</p></div>
-
-</h2>
-
-</div>
-
-<div class="box" style="left: 600px; top: -142.5px; width: 350px; height: 112.5px; background: #4764cc; text-align: center;">
-
-<h2 style="font-family: roboto; font-weight: normal; left: 25px; color: white;">Games</h2>
-
-<div onclick="window.open('https://brickdrop.jakinventions.com/', '_blank');" class="button1" style="cursor : pointer; left: 125px; bottom: 5px;"><p style="position: relative; top: 8px;">Brick Drop</p></div>
-
-</h2>
-
-</div>
-
-<div class="box" style="left: 400px; top: -102.5px; width: 350px; height: 112.5px; background: #76a1e8; text-align: center;">
-
-<h2 style="font-family: roboto; font-weight: normal; left: 25px; color: white;">Android Apps</h2>
-
-<div onclick="window.open('https://elemental.jakinventions.com', '_blank');" class="button1" style="cursor : pointer; left: 75px; bottom: 5px; width: 200px;"><p style="position: relative; top: 8px;">Elemental Counter</p></div>
-
-</h2>
-
-</div>
-
-<!--
-
-<div class="box" style="left: 600px; top: -234.5px; width: 350px; height: 112.5px; background: #a0c4ff; text-align: center;">
-
-<h2 style="font-family: roboto; font-weight: normal; left: 25px; color: white;">Filler</h2>
-
-<div onclick="window.open('https://elemental.jakinventions.com', '_blank');" class="button1" style="cursor : pointer; left: 125px; bottom: 5px;"><p style="position: relative; top: 8px;">Filler</p></div>
-
-</h2>
-
-</div>
-
--->
-
-</div>
-
-
-<div id="softwareFooter" style="text-align: center;">
-
-<p style="font-family: roboto;">&copy; Jak Inventions 2018</p>
-
-</div>
+	<section id="softwareContainer">
+	
+		<div id="windowsBox" class="box softwareBox">
+		
+			<h2 class="boxHeader softwareHeader">Windows Applications</h2>
+			
+			<button id="opencalcButton" onclick="window.open('https://opencalc.jakinventions.com')">OpenCalc</button>
+			
+			<button id="freextButton" onclick="window.open('https://freext.jakinventions.com')">FreeXT</button>
+			
+			<button id="cliprunnerButton" onclick="window.open('https://cliprunner.jakinventions.com')">ClipRunner</button>
+		
+		</div>
+		
+		<div id="gamesBox" class="box softwareBox">
+		
+			<h2 class="boxHeader softwareHeader">Games</h2>
+			
+			<button id="brickdropButton" onclick="window.open('https://brickdrop.jakinventions.com')">Brick Drop</button>
+		
+		</div>
+		
+		<div id="appsBox" class="box softwareBox">
+		
+			<h2 class="boxHeader softwareHeader">Android Apps</h2>
+			
+			<button id="elementalcounterButton" onclick="window.open('https://elemental.jakinventions.com')">Elemental Counter</button>
+		
+		</div>
+		
+		<div id="webBox" class="box softwareBox">
+		
+			<h2 class="boxHeader softwareHeader">Web Based Projects</h2>
+			
+			<button id="rippleButton" onclick="window.open('https://ripple.jakinventions.com')">Ripple</button>
+		
+		</div>
+		
+		<footer>
+	
+			<p style="text-align: center;">&copy; Jak Inventions 2018</p>
+	
+		</footer>
+	
+	</section>
 
 </body>
-
-</html>
