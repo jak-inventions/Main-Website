@@ -1,0 +1,84 @@
+
+/* Font Imports */
+
+@font-face{
+	
+	src: url("fonts/roboto.ttf");
+	
+	font-family: roboto;
+	
+}
+
+/* Normal View */
+
+/* Id's */
+
+/* Classes */
+
+/* Tags */
+
+body{
+	
+	display: none;
+	
+	margin: 0px;
+	
+}
+
+header{
+	
+	width: 100vw;
+	
+	height: 100px;
+	
+	background: green;
+	
+}
+
+header p{
+	
+	cursor: default;
+	
+	text-align: center;
+	
+	font-size: 25px;
+	
+	margin: 0px;
+	
+}
+
+header a{
+	
+	cursor: pointer;
+	
+	transition: 0.5s;
+	
+}
+
+header a:hover{
+	
+	opacity: 0.5;
+	
+}
+
+/* Other */
+
+*{
+	
+	font-family: roboto;
+	
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 600px){
+	
+	/* Id's */
+	
+	/* Classes */
+	
+	/* Tags */
+	
+	/* Other */
+	
+}
