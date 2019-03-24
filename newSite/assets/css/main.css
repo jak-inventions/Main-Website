@@ -29,15 +29,13 @@ header{
 	
 	width: 100vw;
 	
-	height: 100px;
+	height: 150px;
 	
-	background: green;
+	cursor: default;
 	
 }
 
 header p{
-	
-	cursor: default;
 	
 	text-align: center;
 	
@@ -45,19 +43,49 @@ header p{
 	
 	margin: 0px;
 	
+	line-height: 25px;
+	
 }
 
 header a{
 	
 	cursor: pointer;
 	
-	transition: 0.5s;
+	transition: 0.25s;
 	
 }
 
 header a:hover{
 	
 	opacity: 0.5;
+	
+}
+
+header a:active{
+	
+	opacity: 0.25;
+	
+}
+
+header img{
+	
+	display: inline;
+	
+	width: 90;
+	
+	height: 60;
+	
+	position: absolute;
+	
+	top: 15px;
+	
+}
+
+header h1{
+	
+	font-weight: normal;
+	
+	text-align: center;
 	
 }
 
