@@ -152,7 +152,9 @@
 	
 	#abnormalWidth{
 		
-		width: 70px;
+		width: 60px;
+		
+		margin-left: 20px;
 		
 	}
 	
@@ -180,7 +182,7 @@
 		
 		height: 50px;
 		
-		margin-left: 15px;
+		margin-left: 20px;
 	
 	}
 
