@@ -2,11 +2,11 @@
 /* Font Imports */
 
 @font-face{
-	
+
 	src: url("fonts/roboto.ttf");
-	
+
 	font-family: roboto;
-	
+
 }
 
 /* Normal View */
@@ -18,95 +18,37 @@
 /* Tags */
 
 body{
-	
+
 	display: none;
-	
-	margin: 0px;
-	
-}
 
-header{
-	
+	margin: 0px;
+
 	width: 100vw;
-	
-	height: 150px;
-	
-	cursor: default;
-	
-}
 
-header p{
-	
-	text-align: center;
-	
-	font-size: 25px;
-	
-	margin: 0px;
-	
-	line-height: 25px;
-	
-}
+	height: 100vh;
 
-header a{
-	
-	cursor: pointer;
-	
-	transition: 0.25s;
-	
-}
+	background: #363636;
 
-header a:hover{
-	
-	opacity: 0.5;
-	
-}
-
-header a:active{
-	
-	opacity: 0.25;
-	
-}
-
-header img{
-	
-	display: inline;
-	
-	width: 90;
-	
-	height: 60;
-	
-	position: absolute;
-	
-	top: 15px;
-	
-}
-
-header h1{
-	
-	font-weight: normal;
-	
-	text-align: center;
-	
 }
 
 /* Other */
 
 *{
-	
+
 	font-family: roboto;
-	
+
 }
 
 /* Mobile View */
 
 @media only screen and (max-width: 600px){
-	
+
 	/* Id's */
-	
+
 	/* Classes */
-	
+
 	/* Tags */
-	
+
 	/* Other */
-	
+
 }
