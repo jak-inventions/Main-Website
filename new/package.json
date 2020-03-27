@@ -1,0 +1,26 @@
+{
+  "name": "main-website",
+  "version": "1.0.0",
+  "description": "The main website of Jak Inventions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakInventions/Main-Website.git"
+  },
+  "keywords": [
+    "Jak",
+    "Inventions"
+  ],
+  "author": "Jak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakInventions/Main-Website/issues"
+  },
+  "homepage": "https://github.com/JakInventions/Main-Website#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

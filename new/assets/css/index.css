@@ -1,0 +1,189 @@
+
+/* Ids */
+
+#title{
+  display: inline;
+}
+
+#copyright{
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+#links{
+  text-align: center;
+  font-size: 35px;
+  cursor: default;
+  margin: 10px;
+}
+
+#links a{
+  color: #303030;
+}
+
+#links a:hover{
+  opacity: 0.75;
+}
+
+#links a:active{
+  opacity: 0.5;
+}
+
+#splash{
+  width: 1280px;
+  height: 720px;
+  display: block;
+  margin: auto;
+  border: 3px solid #505050;
+  background-image: url("../img/wallpapers/CodeBlock.png");
+  background-size: cover;
+  transition: 0.5s;
+}
+
+#quote{
+  text-align: center;
+}
+
+#icon{
+  width: 130px;
+  height: 83.75px;
+  display: inline;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#menu{
+  font-size: 25px;
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+  cursor: default;
+}
+
+#menu a{
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+#menu a:hover{
+  opacity: 0.75;
+}
+
+#darkModeToggle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Classes */
+
+.selected{
+  text-decoration: underline;
+}
+
+.switch{
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider{
+  position: absolute;
+  cursor: pointer;
+  border: 1px solid #c9c9c9;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #303030;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  border-radius: 3px;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 6px;
+  top: 6px;
+  background-color: #fcfaff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #fcfaff;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(35px);
+  -ms-transform: translateX(35px);
+  transform: translateX(35px);
+  background-color: #303030;
+}
+
+/* Tags */
+
+body{
+  background: #fcfaff;
+}
+
+/* Other */
+
+*{
+  font-family: 'Roboto Light', sans-serif;
+  font-weight: normal;
+}
+
+/* Other Screen Sizes */
+
+/* Laptops */
+
+@media (min-width: 1025px) and (max-width: 1310px) {
+
+  #splash{
+    width: 960px;
+    height: 540px;
+  }
+
+}
+
+/* Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  #splash{
+    width: 810px;
+    height: 480px;
+  }
+
+}
+
+/* Mobile */
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+  #splash{
+    width: 480px;
+    height: 810px;
+    background-image: url("../img/wallpapers/CodeBlockMobile.png");
+  }
+
+  #menu{
+
+  }
+
+}
