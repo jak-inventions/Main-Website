@@ -152,7 +152,7 @@ body{
 
 /* Laptops */
 
-@media (min-width: 1025px) and (max-width: 1310px) {
+@media (max-width: 1310px) {
 
   #splash{
     width: 960px;
@@ -163,7 +163,7 @@ body{
 
 /* Tablets */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
   #splash{
     width: 810px;
@@ -174,11 +174,27 @@ body{
 
 /* Mobile */
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (max-width: 768px) {
 
   #splash{
     width: 480px;
     height: 810px;
+    background-image: url("../img/wallpapers/CodeBlockMobile.png");
+  }
+
+  #menu{
+    
+  }
+
+}
+
+/* Smaller Mobile */
+
+@media (max-width: 700px) {
+
+  #splash{
+    width: 375px;
+    height: 633px;
     background-image: url("../img/wallpapers/CodeBlockMobile.png");
   }
 
