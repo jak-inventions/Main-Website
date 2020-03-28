@@ -152,7 +152,7 @@ body{
 
 /* Laptops */
 
-@media (max-width: 1310px) {
+@media (max-width: 1350px) {
 
   #splash{
     width: 960px;
@@ -174,7 +174,7 @@ body{
 
 /* Mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 
   #splash{
     width: 480px;
