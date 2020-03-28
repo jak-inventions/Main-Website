@@ -259,4 +259,9 @@ body{
     margin-right: 0px;
   }
 
+  #icon{
+    width: 115px;
+    height: 75px;
+  }
+
 }
