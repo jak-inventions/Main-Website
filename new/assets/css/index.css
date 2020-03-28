@@ -183,7 +183,7 @@ body{
   }
 
   #menu{
-    
+
   }
 
 }
@@ -193,8 +193,8 @@ body{
 @media (max-width: 700px) {
 
   #splash{
-    width: 375px;
-    height: 633px;
+    width: 325px;
+    height: 548px;
     background-image: url("../img/wallpapers/CodeBlockMobile.png");
   }
 
