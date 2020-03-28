@@ -1,4 +1,16 @@
 
+/* Fonts */
+
+@font-face{
+  src: url('../fonts/Roboto-Light.ttf');
+  font-family: 'Roboto Light';
+}
+
+@font-face{
+  src: url('../fonts/Roboto-Thin.ttf');
+  font-family: 'Roboto Thin';
+}
+
 /* Ids */
 
 #title{
@@ -220,6 +232,10 @@ body{
 
   header{
     text-align: center;
+  }
+
+  *{
+    font-family: 'Roboto Thin';
   }
 
 }
