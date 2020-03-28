@@ -14,7 +14,7 @@
 
 .dark #splash{
   border-color: white;
-  background-image: url("../img/wallpapers/RetroSun.png");
+  background-image: url('../img/wallpapers/RetroSun.png');
 }
 
 .dark header{
@@ -27,7 +27,7 @@
 @media (max-width: 768px) {
 
   .dark #splash{
-    background-image: url("../img/wallpapers/RetroSunMobile.png");
+    background-image: url('../img/wallpapers/RetroSunMobile.png');
   }
 
 }

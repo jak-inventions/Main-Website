@@ -38,7 +38,7 @@
   display: block;
   margin: auto;
   border: 3px solid #505050;
-  background-image: url("../img/wallpapers/CodeBlock.png");
+  background-image: url('../img/wallpapers/CodeBlock.png');
   background-size: cover;
   transition: 0.5s;
 }
@@ -63,7 +63,7 @@
   font-size: 25px;
   float: right;
   margin-right: 25px;
-  margin-top: 25px;
+  margin-top: 30px;
   cursor: default;
 }
 
@@ -125,7 +125,7 @@
 .slider:before {
   position: absolute;
   border-radius: 3px;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 6px;
@@ -146,11 +146,18 @@ input:checked + .slider:before {
   background-color: #303030;
 }
 
+.mobileBreak{
+  display: none;
+}
+
 /* Tags */
 
 header{
+  display: inline-block;
+  margin: 0px;
+  width: 100%;
   background: white;
-  padding: 10px;
+  padding-top: 10px;
   padding-bottom: 15px;
   border-bottom: 1px solid #e2e2e2;
 }
@@ -199,27 +206,41 @@ body{
   #splash{
     width: 480px;
     height: 810px;
-    background-image: url("../img/wallpapers/CodeBlockMobile.png");
+    background-image: url('../img/wallpapers/CodeBlockMobile.png');
   }
 
   #menu{
+    margin-top: 20px;
+    float: none;
+  }
 
+  .mobileBreak{
+    display: block;
+  }
+
+  header{
+    text-align: center;
   }
 
 }
 
 /* Smaller Mobile */
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 
   #splash{
     width: 325px;
     height: 548px;
-    background-image: url("../img/wallpapers/CodeBlockMobile.png");
+    background-image: url('../img/wallpapers/CodeBlockMobile.png');
   }
 
   #menu{
+    font-size: 20px;
+  }
 
+  #menu a{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
 }
