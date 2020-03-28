@@ -10,7 +10,7 @@
   background-image: url("../img/wallpapers/RetroSun.png");
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (max-width: 768px) {
 
   .dark #splash{
     background-image: url("../img/wallpapers/RetroSunMobile.png");
