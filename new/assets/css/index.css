@@ -90,6 +90,22 @@
   display: none;
 }
 
+.large{
+  width: 900px;
+}
+
+.medium{
+  width: 700px;
+}
+
+.small{
+  width: 500px;
+}
+
+.mini{
+  width: 300px;
+}
+
 /* Tags */
 
 header{
@@ -115,6 +131,30 @@ footer{
 
 a{
   cursor: pointer;
+}
+
+article{
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 800px;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: white;
+  border: 1px solid #e2e2e2;
+  border-radius: 7.5px;
+}
+
+article h2{
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+
+article p{
+  line-height: 150%;
+  font-size: 18px;
 }
 
 /* Other */
@@ -156,6 +196,18 @@ a{
     display: block;
   }
 
+  .medium{
+    width: 500px;
+  }
+
+  .small{
+    width: 400px;
+  }
+
+  .mini{
+    width: 300px;
+  }
+
   header{
     text-align: center;
     padding-bottom: 5px;
@@ -188,6 +240,18 @@ a{
 
   #quote{
     font-size: 24px;
+  }
+
+  .medium{
+    width: 275px;
+  }
+
+  .small{
+    width: 275px;
+  }
+
+  .mini{
+    width: 275px;
   }
 
 }
