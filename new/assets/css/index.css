@@ -60,11 +60,13 @@
   user-select: none;
 }
 
-#menu a{
+#menu a:not(.selected){
   cursor: pointer;
   margin-left: 5px;
   margin-right: 5px;
   transition: 0.25s;
+  text-decoration: none;
+  color: #303030;
 }
 
 #menu a:hover{
@@ -109,7 +111,7 @@ footer{
 }
 
 a{
-  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Other */
@@ -117,6 +119,9 @@ a{
 *{
   font-family: 'Roboto Light', sans-serif;
   font-weight: normal;
+}
+
+*:not(a){
   color: #303030;
 }
 
