@@ -40,7 +40,6 @@
 }
 
 #links a{
-  color: #303030;
   transition: 0.5s;
 }
 
@@ -109,11 +108,16 @@ footer{
   padding-bottom: 15px;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* Other */
 
 *{
   font-family: 'Roboto Light', sans-serif;
   font-weight: normal;
+  color: #303030;
 }
 
 /* Other Screen Sizes */
@@ -149,9 +153,9 @@ footer{
     padding-bottom: 5px;
   }
 
-  *{
+  /**{
     font-family: 'Roboto Thin';
-  }
+  }*/
 
 }
 
