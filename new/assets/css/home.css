@@ -17,7 +17,7 @@
   display: block;
   margin: auto;
   border: 2px solid #303030;
-  background-image: url('../img/wallpapers/CodeBlock.png');
+  background-image: url('../img/wallpapers/CodeBlockSD.png');
   background-size: cover;
   transition: 0.5s;
   border-radius: 3px;
@@ -60,7 +60,7 @@
   #splash{
     width: 480px;
     height: 810px;
-    background-image: url('../img/wallpapers/CodeBlockMobile.png');
+    background-image: url('../img/wallpapers/CodeBlockMobileSD.png');
   }
 
 }
