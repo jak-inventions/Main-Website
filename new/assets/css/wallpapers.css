@@ -7,6 +7,38 @@
 
 /* Tags */
 
+.wallpaper{
+  padding-bottom: 20px;
+}
+
+.wallpaper .desktop{
+  display: block;
+}
+
+.wallpaper .mobile{
+  display: none;
+}
+
+.wallpaper img{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
+  height: 450px;
+}
+
+.wallpaper .buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallpaper .buttons button{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /* Other */
 
 /* Other Screen Sizes */
@@ -21,16 +53,39 @@
 
 @media (max-width: 1024px) {
 
+  .wallpaper img{
+    width: 700px;
+    height: 394px;
+  }
+
 }
 
 /* Mobile */
 
 @media (max-width: 850px) {
 
+  .wallpaper img{
+    width: 500px;
+    height: 889px;
+  }
+
+  .wallpaper .desktop{
+    display: none;
+  }
+
+  .wallpaper .mobile{
+    display: block;
+  }
+
 }
 
 /* Smaller Mobile */
 
 @media (max-width: 600px) {
+
+  .wallpaper img{
+    width: 250px;
+    height: 444px;
+  }
 
 }

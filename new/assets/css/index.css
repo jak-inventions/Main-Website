@@ -162,6 +162,28 @@ article p{
   font-size: 18px;
 }
 
+button{
+  background: #e6e6e6;
+  border: 1px solid #d1d1d1;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover{
+  background: white;
+}
+
+button:active{
+  background: #cfcfcf;
+}
+
+button:focus{
+  outline: none;
+}
+
 /* Other */
 
 *{
