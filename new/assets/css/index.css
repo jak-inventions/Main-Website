@@ -18,8 +18,7 @@
   height: 83.75px;
   display: inline;
   vertical-align: middle;
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #title{
@@ -57,7 +56,7 @@
   font-size: 25px;
   float: right;
   margin-right: 25px;
-  margin-top: 30px;
+  margin-top: 25px;
   cursor: default;
   user-select: none;
 }
@@ -94,7 +93,7 @@ header{
   margin: 0px;
   width: 100%;
   background: white;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #e2e2e2;
 }
@@ -172,6 +171,7 @@ footer{
   #icon{
     width: 77px;
     height: 50px;
+    margin: 0px;
   }
 
   #quote{
