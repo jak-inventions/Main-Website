@@ -80,6 +80,11 @@
   opacity: 0.7;
 }
 
+#pageNotFound, #returnToHome{
+  width: 100%;
+  text-align: center;
+}
+
 /* Classes */
 
 .selected{

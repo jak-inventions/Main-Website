@@ -1,0 +1,209 @@
+
+/* About CSS */
+
+/* Ids */
+
+#aboutBox{
+	
+	margin-left: 50px;
+
+	margin-top: 50px;
+
+}
+
+#someSoftwareBox{
+	
+	margin-left: 550px;
+	
+	margin-top: -20px;
+	
+	background: #72d9ff;
+	
+	
+}
+
+#abnormalWidth{
+	
+	margin-left: 45px;
+	
+}
+
+#freextCaption{
+	
+	margin-left: 25px;
+	
+}
+
+#cliprunnerCaption{
+	
+	margin-left: 75px;
+	
+}
+
+#opencalcCaption{
+	
+	margin-left: 45px;
+	
+}
+
+/* Containers */
+
+#aboutContainer{
+	
+	margin: auto;
+	
+	display: none;
+	
+	width: 1100px;
+	
+	height: 500px;
+	
+}
+
+/* Classes */
+
+.boxHeader{
+	
+	padding-left: 20px;
+	
+	padding-top: 10px;
+	
+}
+
+.boxText{
+	
+	padding-left: 20px;
+	
+	margin-top: -10px;
+	
+	width: 90%;
+	
+	font-size: 15px;
+	
+}
+
+.emailLink{
+	
+	color: black;
+	
+	transition: 0.5s;
+	
+}
+
+.emailLink:hover{
+	
+	opacity: 0.5;
+	
+}
+
+.someSoftwareImage{
+	
+	margin-left: 35px;
+	
+	width: 100px;
+	
+	height: 100px;
+	
+}
+
+.someSoftwareText{
+	
+	display: inline;
+	
+	margin-top: -15px;
+	
+}
+
+/* MobileView */
+
+@media only screen and (max-width: 600px){
+	
+	#aboutContainer{
+		
+		width: 300px;
+	
+		height: 450px;
+		
+	}
+	
+	#aboutBox{
+	
+		margin-left: 25px;
+
+		margin-top: 25px;
+		
+		width: 250px;
+		
+		height: 200px;
+
+	}
+	
+	#someSoftwareBox{
+		
+		margin-left: 25px;
+
+		margin-top: 25px;
+		
+		width: 250px;
+		
+		height: 150px;
+		
+	}
+	
+	#abnormalWidth{
+		
+		width: 60px;
+		
+		margin-left: 20px;
+		
+	}
+	
+	.boxHeader{
+	
+		padding-left: 10px;
+		
+		font-size: 17px;
+	
+	}
+
+	.boxText{
+		
+		padding-left: 10px;
+		
+		margin-top: -15px;
+		
+		font-size: 13px;
+		
+	}
+	
+	.someSoftwareImage{
+	
+		width: 50px;
+		
+		height: 50px;
+		
+		margin-left: 20px;
+	
+	}
+
+	#freextCaption{
+	
+		margin-left: 5px;
+	
+	}
+
+	#cliprunnerCaption{
+		
+		margin-left: 15px;
+		
+	}
+
+	#opencalcCaption{
+		
+		margin-left: 5px;
+		
+	}
+		
+}
+
+/* Other */

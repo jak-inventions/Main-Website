@@ -1,0 +1,104 @@
+
+<title>Jak Inventions</title>
+
+<!-- Icon import -->
+
+<link rel="shortcut icon" href="assets/images/icon.png"/>
+
+<!-- Meta data stuff -->
+
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+<link rel="apple-touch-icon" href="assets/images/icon.png"/>
+
+<meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
+
+<meta name="author" content="Jak"/>
+
+<meta charset="utf-8"/>
+
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<!-- Script import -->
+
+<script src="assets/scripts/transition.js"></script>
+
+<script src="assets/scripts/main.js"></script>
+
+<script src="assets/scripts/jQuery/jquery-3.3.1.min.js"></script>
+
+<!-- Css import -->
+
+<link rel="stylesheet" href="assets/css/main.css"/>
+
+<link rel="stylesheet" href="assets/css/home.css"/>
+
+<link rel="stylesheet" href="assets/css/about.css"/>
+
+<link rel="stylesheet" href="assets/css/software.css"/>
+
+<link rel="stylesheet" href="assets/css/extras.css"/>
+
+<!-- The header -->
+
+<header id="mainHeader">
+
+	<!-- Main title -->
+
+	<h1 class="mainHeader">Jak Inventions <img id="mainIcon" src="assets/images/icon.png"/></h1>
+
+	<!-- menu -->
+
+	<p class="mainMenu" style="cursor: default; text-align: center;">
+
+		<a class="headerButton menuSelected">Home</a> |
+
+		<a class="headerButton" onclick="transitionOut('homeContainer', 'about.html')">About</a> |
+
+		<a class="headerButton" onclick="transitionOut('homeContainer', 'software.html')">Software</a> |
+
+		<a class="headerButton" onclick="transitionOut('homeContainer', 'extras.html')">Extras</a>
+
+	</p>
+
+</header>
+
+<!-- Everything below here should be different for each page -->
+
+<!-- Body -->
+
+<body onload='transitionIn("homeContainer");'>
+
+	<!-- Main container -->
+
+	<section id="homeContainer">
+
+		<p id="homePageQuote">A place where software is open and free to all</p>
+
+		<img id="previewImage" src="assets/images/Cyan-Static-preview.png"/>
+
+		<footer>
+
+			<p style="text-align: center;">&copy; Jak Inventions 2019</p>
+
+			<!-- Yah, we don't really do real social media -->
+
+			<div style="display: block; width: 90px; margin: auto;">
+
+				<a href="https://github.com/jak-inventions" class="link fa fa-github"></a>
+
+				<a href="https://www.youtube.com/channel/UCKI_ok1ghxuQ7k-f7es3tjA?view_as=subscriber" class="link fa fa-youtube-play"></a>
+
+			</div>
+
+			<br/>
+
+		</footer>
+
+	</section>
+
+</body>

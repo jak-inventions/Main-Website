@@ -1,132 +1,87 @@
-
-<title>Jak Inventions</title>
-
-<!-- Icon import -->
-
-<link rel="shortcut icon" href="assets/images/icon.png"/>
-
-<!-- Meta data stuff -->
-
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-
-<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-
-<link rel="apple-touch-icon" href="assets/images/icon.png"/>
-
-<meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
-
-<meta name="author" content="Jak"/>
-
-<meta charset="utf-8"/>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
-<!-- Script import -->
-
-<script src="assets/scripts/transition.js"></script>
-
-<script src="assets/scripts/main.js"></script>
-
-<script src="assets/scripts/jQuery/jquery-3.3.1.min.js"></script>
-
-<!-- Css import -->
-
-<link rel="stylesheet" href="assets/css/main.css"/>
-
-<link rel="stylesheet" href="assets/css/home.css"/>
-
-<link rel="stylesheet" href="assets/css/about.css"/>
-
-<link rel="stylesheet" href="assets/css/software.css"/>
-
-<link rel="stylesheet" href="assets/css/extras.css"/>
-
-<!-- The header -->
-
-<header id="mainHeader">
-
-	<!-- Main title -->
-
-	<h1 class="mainHeader">Jak Inventions <img id="mainIcon" src="assets/images/icon.png"/></h1>
-
-	<!-- menu -->
-
-	<p class="mainMenu" style="cursor: default; text-align: center;">
-
-		<a class="headerButton" onclick="transitionOut('softwareContainer', 'index.html')">Home</a> |
-
-		<a class="headerButton" onclick="transitionOut('softwareContainer', 'about.html')">About</a> |
-
-		<a class="headerButton menuSelected">Software</a> |
-
-		<a class="headerButton" onclick="transitionOut('softwareContainer', 'extras.html')">Extras</a>
-
-	</p>
-
-</header>
-
-<!-- Everything below here should be different for each page -->
-
-<!-- Body -->
-
-<body onload='transitionIn("softwareContainer");'>
-
-	<!-- Main container -->
-
-	<section id="softwareContainer">
-
-		<div id="windowsBox" class="box softwareBox">
-
-			<h2 class="boxHeader softwareHeader">Windows Applications</h2>
-
-			<button id="opencalcButton" onclick="window.open('https://opencalc.jakinventions.com')">OpenCalc</button>
-
-			<button id="cliprunnerButton" onclick="window.open('https://cliprunner.jakinventions.com')">ClipRunner</button>
-
-			<button id="freextButton" onclick="window.open('https://freext.jakinventions.com')">FreeXT</button>
-
-		</div>
-
-		<div id="gamesBox" class="box softwareBox">
-
-			<h2 class="boxHeader softwareHeader">Games</h2>
-
-			<button id="brickdropButton" onclick="window.open('https://brickdrop.jakinventions.com')">Brick Drop</button>
-
-		</div>
-
-		<div id="appsBox" class="box softwareBox">
-
-			<h2 class="boxHeader softwareHeader">Android Apps</h2>
-
-			<button id="elementalcounterButton" onclick="window.open('https://elemental.jakinventions.com')">Elemental</button>
-
-		</div>
-
-		<div id="webBox" class="box softwareBox">
-
-			<h2 class="boxHeader softwareHeader">Web Based Projects</h2>
-
-			<button id="rippleButton" onclick="window.open('https://ripple.jakinventions.com')">Ripple</button>
-
-		</div>
-
-		<footer>
-
-			<p style="text-align: center;">&copy; Jak Inventions 2019</p>
-
-			<div style="display: block; width: 90px; margin: auto;">
-
-				<a href="https://github.com/jak-inventions" class="link fa fa-github"></a>
-
-				<a href="https://www.youtube.com/channel/UCKI_ok1ghxuQ7k-f7es3tjA?view_as=subscriber" class="link fa fa-youtube-play"></a>
-
-			</div>
-
-		</footer>
-
-	</section>
-
-</body>
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <!-- Page Setup -->
+    <title>Jak Inventions</title>
+    <link rel='shortcut icon' href='assets/img/tabIcon.png'/>
+    <meta name='viewport' content='width=device-width, user-scalable=no' />
+    <!-- Metadata Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="apple-touch-icon" href="assets/img/tabIcon.png"/>
+    <meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
+    <meta name="author" content="Jak"/>
+    <meta charset="utf-8"/>
+    <!-- Imports -->
+    <script src="https://kit.fontawesome.com/9ff649492a.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='assets/css/index.css'/>
+    <link rel='stylesheet' href='assets/css/software.css'/>
+  </head>
+  <body>
+
+    <header>
+      <a href='index.html'><img id='icon' src='assets/img/icon.png'/></a>
+      <h1 id='title'>Jak Inventions</h1>
+      <br class='mobileBreak'/>
+      <div id='menu'>
+        <a href='index.html'>Home</a> |
+        <a href='about.html'>About</a> |
+        <a class='selected'>Software</a> |
+        <a href='wallpapers.html'>Wallpapers</a>
+      </div>
+      <br class='mobileBreak'/>
+    </header>
+
+    <main>
+
+      <article class='mini headerOnly'>
+        <h2><u>Software</u></h2>
+      </article>
+
+      <article class='large software'>
+        <h2><u>Brick Drop</u></h2>
+        <p>
+          Brick Drop is a game in which you play as a square moving side to side
+          that has to dodge bricks. To stop moving simply tap and hold as long as
+          you would like to remain still. Brick Drop is available on the google
+          play store, and amazon app store.
+          <br/><br/>
+          <a href='https://brickdrop.jakinventions.com'>Brick Drop Website</a>
+        </p>
+      </article>
+
+      <article class='large software'>
+        <h2><u>Elemental</u></h2>
+        <p>
+          Elemental is a simple open-source life counter for Magic the Gathering.
+          It's available on the google play store, and has a web version for ios
+          users.
+          <br/><br/>
+          <a href='https://elemental.jakinventions.com'>Elemental Website</a>
+        </p>
+      </article>
+
+      <article class='large software'>
+        <h2><u>FreeXT</u></h2>
+        <p>
+          FreeXT is an open-source web based notes app. It's available on the
+          google play store, and amazon app store. FreeXT is also available
+          for windows, linux, and has a web version.
+          <br/><br/>
+          <a href='https://freext.jakinventions.com'>FreeXT Website</a>
+        </p>
+      </article>
+
+    </main>
+
+    <footer>
+      <p id='copyright'>&copy;Jak Inventions 2020</p>
+      <p id='links'>
+        <a href='https://github.com/jak-inventions'><i class='fa fa-github'></i></a>
+        <a href='https://www.youtube.com/channel/UCKI_ok1ghxuQ7k-f7es3tjA?view_as=subscriber'><i class='fa fa-youtube-play'></i></a>
+      </p>
+      <script src='assets/js/index.js'></script>
+      <script src='node_modules/jquery/dist/jquery.min.js'></script>
+    </footer>
+  </body>
+</html>

@@ -1,63 +1,77 @@
 
-/* Home CSS */
+/* Fonts */
 
 /* Ids */
 
-#previewImage{
-	
-	display: block;
-	
-	margin: auto;
-	
-	width: 1100px;
-	
-	height: 600px;
-	
-	border: 5px solid #a5a5a5;
-	
-	z-index: -1;
-	
+#quote{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 26px;
+  transition: 0.5s;
 }
 
-#homePageQuote{
-	
-	text-align: center;
-	
-	font-size: 35px;
-	
-}
-
-/* Containers */
-
-#homeContainer{
-	
-	margin: auto;
-	
-	display: none;
-	
+#splash{
+  width: 1280px;
+  height: 720px;
+  display: block;
+  margin: auto;
+  border: 2px solid #303030;
+  background-image: url('../img/wallpapers/CodeBlockSD.png');
+  background-size: cover;
+  transition: 0.5s;
+  border-radius: 3px;
 }
 
 /* Classes */
 
-/* MobileView */
-
-@media only screen and (max-width: 600px){
-	
-	#previewImage{
-		
-		width: 300px;
-		
-		height: 175px;
-	
-	}
-	
-	#homePageQuote{
-		
-		font-size: 18px;
-		
-	}
-	
-}
+/* Tags */
 
 /* Other */
 
+/* Other Screen Sizes */
+
+/* Laptops */
+
+@media (max-width: 1350px) {
+
+  #splash{
+    width: 960px;
+    height: 540px;
+  }
+
+}
+
+/* Tablets */
+
+@media (max-width: 1024px) {
+
+  #splash{
+    width: 810px;
+    height: 480px;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width: 850px) {
+
+  #splash{
+    width: 480px;
+    height: 810px;
+    background-image: url('../img/wallpapers/CodeBlockMobileSD.png');
+  }
+
+}
+
+/* Smaller Mobile */
+
+@media (max-width: 600px) {
+
+  #splash{
+    width: 325px;
+    height: 548px;
+  }
+
+}

@@ -1,104 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <!-- Page Setup -->
+    <title>Jak Inventions</title>
+    <link rel='shortcut icon' href='assets/img/tabIcon.png'/>
+    <meta name='viewport' content='width=device-width, user-scalable=no' />
+    <!-- Metadata Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="apple-touch-icon" href="assets/img/tabIcon.png"/>
+    <meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
+    <meta name="author" content="Jak"/>
+    <meta charset="utf-8"/>
+    <!-- Imports -->
+    <link rel='stylesheet' href='assets/css/index.css'/>
+    <link rel='stylesheet' href='assets/css/home.css'/>
+  </head>
+  <body>
 
-<title>Jak Inventions</title>
+    <header>
+      <a href='index.html'><img id='icon' src='assets/img/icon.png'/></a>
+      <h1 id='title'>Jak Inventions</h1>
+      <br class='mobileBreak'/>
+      <div id='menu'>
+        <a class='selected'>Home</a> |
+        <a href='about.html'>About</a> |
+        <a href='software.html'>Software</a> |
+        <a href='wallpapers.html'>Wallpapers</a>
+      </div>
+      <br class='mobileBreak'/>
+    </header>
 
-<!-- Icon import -->
+    <main>
+      <h2 id='quote'>Free, Open-Source, Simple</h2>
+      <div id='splash' ></div>
+    </main>
 
-<link rel="shortcut icon" href="assets/images/icon.png"/>
-
-<!-- Meta data stuff -->
-
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-
-<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-
-<link rel="apple-touch-icon" href="assets/images/icon.png"/>
-
-<meta name="apple-mobile-web-app-title" content="Jak Inventions"/>
-
-<meta name="author" content="Jak"/>
-
-<meta charset="utf-8"/>
-
-<meta name="viewport" content="width=device-width, user-scalable=no" />
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
-<!-- Script import -->
-
-<script src="assets/scripts/transition.js"></script>
-
-<script src="assets/scripts/main.js"></script>
-
-<script src="assets/scripts/jQuery/jquery-3.3.1.min.js"></script>
-
-<!-- Css import -->
-
-<link rel="stylesheet" href="assets/css/main.css"/>
-
-<link rel="stylesheet" href="assets/css/home.css"/>
-
-<link rel="stylesheet" href="assets/css/about.css"/>
-
-<link rel="stylesheet" href="assets/css/software.css"/>
-
-<link rel="stylesheet" href="assets/css/extras.css"/>
-
-<!-- The header -->
-
-<header id="mainHeader">
-
-	<!-- Main title -->
-
-	<h1 class="mainHeader">Jak Inventions <img id="mainIcon" src="assets/images/icon.png"/></h1>
-
-	<!-- menu -->
-
-	<p class="mainMenu" style="cursor: default; text-align: center;">
-
-		<a class="headerButton menuSelected">Home</a> |
-
-		<a class="headerButton" onclick="transitionOut('homeContainer', 'about.html')">About</a> |
-
-		<a class="headerButton" onclick="transitionOut('homeContainer', 'software.html')">Software</a> |
-
-		<a class="headerButton" onclick="transitionOut('homeContainer', 'extras.html')">Extras</a>
-
-	</p>
-
-</header>
-
-<!-- Everything below here should be different for each page -->
-
-<!-- Body -->
-
-<body onload='transitionIn("homeContainer");'>
-
-	<!-- Main container -->
-
-	<section id="homeContainer">
-
-		<p id="homePageQuote">A place where software is open and free to all</p>
-
-		<img id="previewImage" src="assets/images/Cyan-Static-preview.png"/>
-
-		<footer>
-
-			<p style="text-align: center;">&copy; Jak Inventions 2019</p>
-
-			<!-- Yah, we don't really do real social media -->
-
-			<div style="display: block; width: 90px; margin: auto;">
-
-				<a href="https://github.com/jak-inventions" class="link fa fa-github"></a>
-
-				<a href="https://www.youtube.com/channel/UCKI_ok1ghxuQ7k-f7es3tjA?view_as=subscriber" class="link fa fa-youtube-play"></a>
-
-			</div>
-
-			<br/>
-
-		</footer>
-
-	</section>
-
-</body>
+    <footer>
+      <p id='copyright'>&copy;Jak Inventions 2020</p>
+      <p id='links'>
+        <a href='https://github.com/jak-inventions'><i class='fa fa-github'></i></a>
+        <a href='https://www.youtube.com/channel/UCKI_ok1ghxuQ7k-f7es3tjA?view_as=subscriber'><i class='fa fa-youtube-play'></i></a>
+      </p>
+      <script src='https://kit.fontawesome.com/9ff649492a.js' crossorigin='anonymous'></script>
+      <script src='node_modules/jquery/dist/jquery.min.js'></script>
+      <script src='assets/js/index.js'></script>
+    </footer>
+  </body>
+</html>
