@@ -189,6 +189,7 @@ button:focus{
 *{
   font-family: 'Roboto Light', sans-serif;
   font-weight: normal;
+  -webkit-tap-highlight-color: transparent;
 }
 
 *:not(a){
