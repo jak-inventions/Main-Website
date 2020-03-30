@@ -6,19 +6,19 @@
 /* Classes */
 
 .large{
-  width: 1000px;
+  width: 900px;
 }
 
 .medium{
-  width: 800px;
+  width: 700px;
 }
 
 .small{
-  width: 600px;
+  width: 500px;
 }
 
 .mini{
-  width: 400px;
+  width: 300px;
 }
 
 /* Tags */
@@ -28,8 +28,8 @@ article{
   margin-top: 50px;
   width: 800px;
   padding: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   background: white;
   border: 1px solid #e2e2e2;
   border-radius: 7.5px;
@@ -38,10 +38,12 @@ article{
 article h2{
   text-align: center;
   margin-bottom: 0px;
+  font-size: 28px;
 }
 
 article p{
   line-height: 150%;
+  font-size: 18px;
 }
 
 /* Other */
