@@ -1,0 +1,53 @@
+
+/* Fonts */
+
+/* Ids */
+
+#quote{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 26px;
+  transition: 0.5s;
+}
+
+#icon{
+  width: 130px;
+  height: 83.75px;
+  display: inline;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* Classes */
+
+/* Tags */
+
+/* Other */
+
+/* Other Screen Sizes */
+
+/* Laptops */
+
+@media (max-width: 1350px) {
+
+}
+
+/* Tablets */
+
+@media (max-width: 1024px) {
+
+}
+
+/* Mobile */
+
+@media (max-width: 850px) {
+
+}
+
+/* Smaller Mobile */
+
+@media (max-width: 600px) {
+
+}
