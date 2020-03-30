@@ -6,19 +6,19 @@
 /* Classes */
 
 .large{
-  width: 900px;
+  width: 1000px;
 }
 
 .medium{
-  width: 700px;
+  width: 800px;
 }
 
 .small{
-  width: 500px;
+  width: 600px;
 }
 
 .mini{
-  width: 300px;
+  width: 400px;
 }
 
 /* Tags */
@@ -68,6 +68,14 @@ article p{
     width: 500px;
   }
 
+  .small{
+    width: 400px;
+  }
+
+  .mini{
+    width: 300px;
+  }
+
 }
 
 /* Smaller Mobile */
@@ -75,6 +83,10 @@ article p{
 @media (max-width: 600px) {
 
   .medium{
+    width: 275px;
+  }
+
+  .small{
     width: 275px;
   }
 
