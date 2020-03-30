@@ -59,6 +59,7 @@
   margin-right: 25px;
   margin-top: 30px;
   cursor: default;
+  user-select: none;
 }
 
 #menu a{
