@@ -69,7 +69,7 @@
 }
 
 #menu a:hover{
-  color: #ae444c;
+  color: #3589d0;
 }
 
 #menu a:active{
@@ -103,6 +103,10 @@ body{
   margin: 0px;
   padding: 0px;
   transition: 0.5s;
+}
+
+footer{
+  padding-bottom: 15px;
 }
 
 /* Other */
