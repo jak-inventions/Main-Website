@@ -60,11 +60,14 @@
   user-select: none;
 }
 
-#menu a:not(.selected){
+#menu a{
   cursor: pointer;
   margin-left: 5px;
   margin-right: 5px;
   transition: 0.25s;
+}
+
+#menu a:not(.selected){
   text-decoration: none;
   color: #303030;
 }
