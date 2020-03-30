@@ -13,6 +13,15 @@
 
 /* Ids */
 
+#icon{
+  width: 130px;
+  height: 83.75px;
+  display: inline;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 #title{
   display: inline;
   vertical-align: middle;
@@ -42,17 +51,6 @@
 
 #links a:active{
   opacity: 0.5;
-}
-
-#splash{
-  width: 1280px;
-  height: 720px;
-  display: block;
-  margin: auto;
-  border: 3px solid #505050;
-  background-image: url('../img/wallpapers/CodeBlock.png');
-  background-size: cover;
-  transition: 0.5s;
 }
 
 #menu{
@@ -120,33 +118,17 @@ body{
 
 @media (max-width: 1350px) {
 
-  #splash{
-    width: 960px;
-    height: 540px;
-  }
-
 }
 
 /* Tablets */
 
 @media (max-width: 1024px) {
 
-  #splash{
-    width: 810px;
-    height: 480px;
-  }
-
 }
 
 /* Mobile */
 
 @media (max-width: 850px) {
-
-  #splash{
-    width: 480px;
-    height: 810px;
-    background-image: url('../img/wallpapers/CodeBlockMobile.png');
-  }
 
   #menu{
     margin: 0px;
@@ -173,11 +155,6 @@ body{
 
 @media (max-width: 600px) {
 
-  #splash{
-    width: 325px;
-    height: 548px;
-  }
-
   #menu{
     font-size: 18px;
   }
@@ -188,8 +165,8 @@ body{
   }
 
   #icon{
-    width: 115px;
-    height: 75px;
+    width: 77px;
+    height: 50px;
   }
 
   #quote{

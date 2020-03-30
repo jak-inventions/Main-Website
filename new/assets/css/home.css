@@ -11,13 +11,15 @@
   transition: 0.5s;
 }
 
-#icon{
-  width: 130px;
-  height: 83.75px;
-  display: inline;
-  vertical-align: middle;
-  margin-top: 10px;
-  margin-left: 10px;
+#splash{
+  width: 1280px;
+  height: 720px;
+  display: block;
+  margin: auto;
+  border: 3px solid #505050;
+  background-image: url('../img/wallpapers/CodeBlock.png');
+  background-size: cover;
+  transition: 0.5s;
 }
 
 /* Classes */
@@ -32,11 +34,21 @@
 
 @media (max-width: 1350px) {
 
+  #splash{
+    width: 960px;
+    height: 540px;
+  }
+
 }
 
 /* Tablets */
 
 @media (max-width: 1024px) {
+
+  #splash{
+    width: 810px;
+    height: 480px;
+  }
 
 }
 
@@ -44,10 +56,21 @@
 
 @media (max-width: 850px) {
 
+  #splash{
+    width: 480px;
+    height: 810px;
+    background-image: url('../img/wallpapers/CodeBlockMobile.png');
+  }
+
 }
 
 /* Smaller Mobile */
 
 @media (max-width: 600px) {
+
+  #splash{
+    width: 325px;
+    height: 548px;
+  }
 
 }
