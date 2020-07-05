@@ -183,6 +183,7 @@ button:hover{
 
 button:active{
   background: #cfcfcf;
+  border-color: #919191;
 }
 
 button:focus{
