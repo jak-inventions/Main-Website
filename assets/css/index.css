@@ -14,8 +14,8 @@
 /* Ids */
 
 #icon{
-  width: 130px;
-  height: 83.75px;
+  width: 80px;
+  height: 80px;
   display: inline;
   vertical-align: middle;
   margin-left: 15px;
@@ -24,6 +24,7 @@
 #title{
   display: inline;
   vertical-align: middle;
+  margin-left: 20px;
 }
 
 #copyright{
