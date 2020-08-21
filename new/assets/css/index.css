@@ -83,6 +83,29 @@ header{
     width: 100%;
 }
 
+header.compressed{
+    background: #1b6357;
+    animation: 0.5s fadeIn;
+}
+
+header.compressed #menu{
+    margin: 30px;
+    font-size: 26px;
+}
+
+header.compressed #icon{
+    margin: 20px;
+}
+
+header.compressed #icon img{
+    width: 60px;
+    height: 60px;
+}
+
+header.compressed #icon br{
+    display: none;
+}
+
 section, footer{
     width: 100%;
 }
