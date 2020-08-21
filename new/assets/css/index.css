@@ -4,11 +4,14 @@
 #home{
     background-color: #339989ff;
     height: 100%;
+    overflow: auto;
 }
 
 #icon{
     float: left;
     margin: 50px;
+    animation: 1s ease-out fadeIn forwards;
+    animation-delay: 0.5s;
 }
 
 #icon img{
@@ -21,7 +24,6 @@
     display: inline-block;
     margin: 0px;
     margin-left: 25px;
-    font-weight: normal;
     vertical-align: middle;
     line-height: 150%;
     color: #7de2d1ff;
@@ -33,6 +35,8 @@
     margin: 75px;
     vertical-align: middle;
     cursor: default;
+    animation: 1s ease-out fadeIn forwards;
+    animation-delay: 1s;
 }
 
 #menu a{
@@ -47,6 +51,18 @@
 
 /* Classes */
 
+.splash-text{
+    text-align: center;
+    margin: 10%;
+    animation: 1s ease-out fadeIn forwards;
+    animation-delay: 1.5s;
+}
+
+.splash-text h2{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
 /* Tags */
 
 body{
@@ -59,7 +75,6 @@ body{
 header{
     position: absolute;
     width: 100%;
-    animation: 1s slideDown;
 }
 
 section, footer{
@@ -73,15 +88,19 @@ footer{
 
 /* Animations */
 
-@keyframes slideDown{
+#icon, #menu, .splash-text{
+    opacity: 0;
+}
+
+@keyframes fadeIn{
     0%{
-        margin-top: -5%;
         opacity: 0;
+        transform: translateY(-25px);
     }
 
     100%{
         opacity: 1;
-        margin-top: 0px;
+        transform: translateY(0px);
     }
 }
 
@@ -89,6 +108,10 @@ footer{
 
 *{
     font-family: 'Open Sans', sans-serif;
+}
+
+*:not(strong){
+    font-weight: normal;
 }
 
 /* Mobile */
