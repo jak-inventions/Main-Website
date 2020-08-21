@@ -1,10 +1,9 @@
 
 /* Ids */
 
-#banner{
+#home{
     background-color: #339989ff;
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 #icon{
@@ -30,7 +29,6 @@
 
 #menu{
     float: right;
-    color: white;
     font-size: 28px;
     margin: 75px;
     vertical-align: middle;
@@ -53,14 +51,24 @@
 
 body{
     margin: 0px;
+    padding: 0px;
     background: #7de2d1ff;
     color: white;
 }
 
 header{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     animation: 1s slideDown;
+}
+
+section, footer{
+    width: 100%;
+}
+
+footer{
+    background-color: #1b6357;
+    height: 15%;
 }
 
 /* Animations */
