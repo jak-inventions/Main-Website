@@ -1,11 +1,87 @@
 
 /* Ids */
 
+#banner{
+    background-color: #339989ff;
+    width: 100vw;
+    height: 100vh;
+}
+
+#icon{
+    float: left;
+    margin: 50px;
+}
+
+#icon img{
+    width: 90px;
+    height: 90px;
+    vertical-align: middle;
+}
+
+#icon h1{
+    display: inline-block;
+    margin: 0px;
+    margin-left: 25px;
+    font-weight: normal;
+    vertical-align: middle;
+    line-height: 150%;
+    color: #7de2d1ff;
+}
+
+#menu{
+    float: right;
+    color: white;
+    font-size: 28px;
+    margin: 75px;
+    vertical-align: middle;
+    cursor: default;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#menu a:hover{
+    color: #7de2d1ff;
+}
+
 /* Classes */
 
 /* Tags */
 
+body{
+    margin: 0px;
+    background: #7de2d1ff;
+    color: white;
+}
+
+header{
+    position: absolute;
+    width: 100vw;
+    animation: 1s slideDown;
+}
+
+/* Animations */
+
+@keyframes slideDown{
+    0%{
+        margin-top: -5%;
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
 /* Other */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Mobile */
 
