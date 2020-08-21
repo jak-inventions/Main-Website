@@ -16,7 +16,7 @@
     width: 90px;
     height: 90px;
     vertical-align: middle;
-    animation: 1s ease-out fadeIn forwards;
+    animation: 0.5s ease-out fadeIn forwards;
     animation-delay: 0.5s;
 }
 
@@ -27,8 +27,8 @@
     vertical-align: middle;
     line-height: 150%;
     color: #7de2d1ff;
-    animation: 1s fadeIn forwards;
-    animation-delay: 1.5s;
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 1s;
 }
 
 #menu{
@@ -37,8 +37,8 @@
     margin: 75px;
     vertical-align: middle;
     cursor: default;
-    animation: 1s fadeIn forwards;
-    animation-delay: 2s;
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 1.5s;
 }
 
 #menu a{
@@ -56,8 +56,8 @@
 .splash-text{
     text-align: center;
     margin: 10%;
-    animation: 1s fadeIn forwards;
-    animation-delay: 2.5s;
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 2s;
 }
 
 .splash-text h2{
