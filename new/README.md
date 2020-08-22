@@ -1,1 +1,1 @@
-This is a proposed new version of the main site of Protos App
+This is a proposed redesign of the main site of Protos App
