@@ -3,3 +3,4 @@
 - About
 - Software
 - Wallpapers
+- Mobile Responsiveness
