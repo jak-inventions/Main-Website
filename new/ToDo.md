@@ -4,3 +4,4 @@
 - Software
 - Wallpapers
 - Mobile Responsiveness
+- Footer
