@@ -5,3 +5,4 @@
 - Wallpapers
 - Mobile Responsiveness
 - Footer
+- Element on show animations
