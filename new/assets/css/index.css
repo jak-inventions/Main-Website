@@ -4,7 +4,6 @@
 #home{
     background-color: #339989ff;
     height: 100%;
-    overflow: auto;
 }
 
 #icon{
@@ -73,6 +72,7 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -112,11 +112,28 @@ header.compressed #icon br{
 
 section, footer{
     width: 100%;
+    overflow: auto;
 }
 
 footer{
     background-color: #1b6357;
     height: 20%;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+hr.small{
+    width: 200px;
+}
+
+hr.medium{
+    width: 300px;
+}
+
+hr.large{
+    width: 400px;
 }
 
 /* Animations */
