@@ -1,40 +1,59 @@
 
 /* Ids */
 
-#navigation{
+#header{
     background-color: #339989;
     position: fixed;
     width: 100%;
     color: white;
-    border-bottom: 2px solid #7de2d1;
+    border-bottom: 2px solid #277d6f;
 }
 
 /* Classes */
 
-.navigation-logo{
+.header-logo{
     display: inline-block;
     margin: 25px;
     text-decoration: none;
 }
 
-.navigation-logo img{
+.header-logo img{
     width: 75px;
     height: 75px;
     vertical-align: middle;
 }
 
-.navigation-logo h1{
+.header-logo h1{
     display: inline;
     margin-left: 15px;
+    font-size: 26px;
     vertical-align: middle;
     color: #7de2d1;
     font-weight: normal;
+}
+
+.header-navigation{
+    float: right;
+    cursor: default;
+    font-size: 22px;
+    margin: 45px;
+}
+
+.header-navigation a{
+    color: white;
+    text-decoration: none;
+    transition: 0.75s color;
+}
+
+.header-navigation a:hover{
+    color: #7de2d1;
 }
 
 /* Tags */
 
 body{
     margin: 0px;
+    background-color: whitesmoke;
 }
 
 /* Animations */
