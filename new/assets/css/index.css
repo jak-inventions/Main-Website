@@ -1,13 +1,49 @@
 
 /* Ids */
 
+#navigation{
+    background-color: #339989;
+    position: fixed;
+    width: 100%;
+    color: white;
+    border-bottom: 2px solid #7de2d1;
+}
+
 /* Classes */
 
+.navigation-logo{
+    display: inline-block;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.navigation-logo img{
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.navigation-logo h1{
+    display: inline;
+    margin-left: 15px;
+    vertical-align: middle;
+    color: #7de2d1;
+    font-weight: normal;
+}
+
 /* Tags */
+
+body{
+    margin: 0px;
+}
 
 /* Animations */
 
 /* Other */
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* Mobile */
 
