@@ -1,0 +1,45 @@
+/* Ids */
+
+
+
+/* Classes */
+
+
+
+/* Tags */
+
+header{
+    background: green;
+}
+
+/* Other */
+
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Other Screen Sizes */
+
+/* Laptops */
+
+@media (max-width: 1350px) {
+
+}
+
+/* Tablets */
+
+@media (max-width: 1024px) {
+
+}
+
+/* Mobile */
+
+@media (max-width: 850px) {
+
+}
+
+/* Smaller Mobile */
+
+@media (max-width: 600px) {
+
+}
