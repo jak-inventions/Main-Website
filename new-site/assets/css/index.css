@@ -4,12 +4,28 @@
 
 /* Classes */
 
+.logo img{
+    margin: 25px;
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+}
 
+.logo span{
+    display: inline;
+    vertical-align: middle;
+    color: #7de2d1;
+    font-size: 28px;
+}
 
 /* Tags */
 
+body{
+    margin: 0px;
+}
+
 header{
-    background: green;
+    background: #339989;
 }
 
 /* Other */
