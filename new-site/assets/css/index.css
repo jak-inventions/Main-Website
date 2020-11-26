@@ -4,6 +4,10 @@
 
 /* Classes */
 
+.logo{
+    display: inline-block;
+}
+
 .logo img{
     margin: 25px;
     width: 75px;
@@ -13,19 +17,33 @@
 
 .logo span{
     display: inline;
-    vertical-align: middle;
-    color: #7de2d1;
+    vertical-align: middle;;
     font-size: 28px;
+}
+
+.navigation{
+    float: right;
+    cursor: default;
+    margin: 40px 40px 0px 0px;
+}
+
+.navigation a{
+    color: #4ecca3;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 20px;
 }
 
 /* Tags */
 
 body{
     margin: 0px;
+    background: #393e46;
 }
 
 header{
-    background: #339989;
+    background: #232931;
+    color: #4ecca3;
 }
 
 /* Other */
