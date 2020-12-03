@@ -5,50 +5,59 @@
 /* Classes */
 
 .logo{
-    display: inline-block;
+    float: left;
 }
 
 .logo img{
     margin: 25px;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     vertical-align: middle;
 }
 
 .logo span{
     display: inline;
     vertical-align: middle;;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .navigation{
     float: right;
     cursor: default;
-    margin: 40px 40px 0px 0px;
+    margin: 55px 55px 0px 0px;
 }
 
 .navigation a{
     text-decoration: none;
-    font-size: 24px;
-    margin: 20px;
+    font-size: 28px;
+    margin: 25px;
+    border-bottom: 0px solid #303030;
+}
+
+.navigation a:hover{
+    border-bottom-width: 2px;
 }
 
 /* Tags */
 
 body{
     margin: 0px;
-    background: #393e46;
+    background-color: whitesmoke;
 }
 
-header, header a{
-    background: #232931;
-    color: #4ecca3;
+header{
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 150px;
 }
 
 /* Other */
 
 *{
     font-family: 'PT Sans', sans-serif;
+    color: #303030;
 }
 
 /* Other Screen Sizes */
