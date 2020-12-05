@@ -1,9 +1,10 @@
 /* Ids */
 
 #home{
-    background-image: url('../img/wallpapers/CodeBlock.png');
+    background-image: url('../img/wallpapers/CodeBlock/CodeBlock-4K.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 
@@ -17,10 +18,10 @@ body{
 }
 
 header{
-    border-bottom: 1px solid #7de2d1;
+    border-bottom: 1px solid darkgrey;
     position: fixed;
     width: 100%;
-    background-color: #339989;
+    background-color: white;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -36,11 +37,10 @@ header img{
 
 header a{
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24px;
     margin: 30px;
-    color: #7de2d1;
+    color: #303030;
     transition: opacity 0.5s;
-    font-weight: lighter;
 }
 
 header a:hover{
