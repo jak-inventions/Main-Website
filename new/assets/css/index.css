@@ -1,7 +1,10 @@
 /* Ids */
 
 #home{
-    padding-top: 100px;
+    background-image: url('../img/wallpapers/CodeBlock.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 /* Classes */
@@ -14,7 +17,7 @@ body{
 }
 
 header{
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #7de2d1;
     position: fixed;
     width: 100%;
     background-color: #339989;
@@ -36,7 +39,6 @@ header a{
     font-size: 28px;
     margin: 30px;
     color: #7de2d1;
-    border-bottom: 0px solid #303030;
     transition: opacity 0.5s;
     font-weight: lighter;
 }
