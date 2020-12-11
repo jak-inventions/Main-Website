@@ -4,6 +4,13 @@
     padding-top: 80px;
 }
 
+#home #quote{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
 /* Classes */
 
 /* Tags */
