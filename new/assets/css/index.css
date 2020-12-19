@@ -11,6 +11,15 @@
     font-weight: lighter;
 }
 
+#splash{
+    display: block;
+    margin: auto;
+    border: 3px solid darkgrey;
+    border-radius: 5px;
+    width: 960px;
+    height: 540px;
+}
+
 /* Classes */
 
 /* Tags */
@@ -54,7 +63,7 @@ header a:hover{
 
 *{
     font-family: 'Open Sans', sans-serif;
-    color: #303030;
+    color: #121212;
 }
 
 /* Other Screen Sizes */
