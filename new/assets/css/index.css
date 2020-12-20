@@ -22,10 +22,17 @@
 }
 
 #down{
-    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #down a{
+    display: inline-block;
     text-decoration: none;
     font-size: 46px;
 }
