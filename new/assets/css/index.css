@@ -1,21 +1,27 @@
 /* Ids */
 
 #home{
-    padding: 80px;
-    height: 100%;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#home #quote{
+#splash{
+    margin: 0px;
+}
+
+#splash figcaption{
     text-align: center;
-    margin-top: 50px;
     font-size: 36px;
     font-weight: lighter;
 }
 
-#splash{
+#splash img{
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
     border: 3px solid darkgrey;
     border-radius: 5px;
     width: 960px;
