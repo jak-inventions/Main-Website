@@ -30,6 +30,14 @@
 
 /* Classes */
 
+.cube{
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+}
+
 /* Tags */
 
 body{
