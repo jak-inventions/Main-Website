@@ -30,8 +30,8 @@
 
 /* Classes */
 
-.cube{
-    width: 200px;
+.box{
+    width: 400px;
     height: 200px;
     background: white;
     border: 1px solid darkgrey;
