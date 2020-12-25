@@ -28,6 +28,12 @@
     height: 540px;
 }
 
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Classes */
 
 .box{
