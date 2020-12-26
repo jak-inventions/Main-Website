@@ -32,19 +32,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 /* Classes */
 
 .box{
-    width: 400px;
-    height: 200px;
+    width: 960px;
+    height: 540px;
     background: white;
     border: 1px solid darkgrey;
     border-radius: 15px;
 }
 
 /* Tags */
+
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0px;
