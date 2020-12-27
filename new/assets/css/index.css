@@ -28,11 +28,15 @@
     height: 540px;
 }
 
+#about .box h1{
+    text-align: center;
+}
+
 /* Classes */
 
 .box{
     width: 960px;
-    height: 540px;
+    padding: 25px;
     background: white;
     box-shadow: 0px 0px 15px 15px #e0e0e0;
     border-radius: 15px;
@@ -85,6 +89,22 @@ section:not(#home){
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1, h2, h3{
+    font-weight: normal;
+}
+
+hr.small{
+    width: 25%;
+}
+
+hr.medium{
+    width: 50%;
+}
+
+hr.large{
+    width: 75%;
 }
 
 /* Other */
