@@ -43,10 +43,51 @@
 
 /* Software */
 
+#software h1{
+    font-size: 26px;
+    text-align: center;
+}
 
+#software .contents{
+    display: flex;
+}
+
+#software .contents .text{
+    width: 50%;
+}
+
+#software .contents .blocks{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#software .contents .blocks .block{
+    width: 50px;
+    height: 50px;
+    background: green;
+    border: 1px solid black;
+}
+
+/* Wallpapers */
+
+#wallpapers h1{
+    font-size: 26px;
+    text-align: center;
+}
 
 /* Contact Us*/
 
+#contact-us h1{
+    font-size: 26px;
+    text-align: center;
+}
+
+#contact-us p{
+    font-size: 18px;
+    text-align: center;
+}
 
 /* Other Screen Sizes */
 
