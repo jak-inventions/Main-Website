@@ -36,7 +36,10 @@
 
 /* About */
 
-
+#about h1{
+    font-size: 26px;
+    text-align: center;
+}
 
 /* Software */
 
@@ -46,14 +49,6 @@
 
 
 /* Other Screen Sizes */
-
-/* Desktop */
-
-@media (max-width: 1560px) {
-
-    
-
-}
 
 /* Laptops */
 
