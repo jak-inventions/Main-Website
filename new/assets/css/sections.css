@@ -130,8 +130,9 @@
 
 @media (max-width: 600px) {
 
-    #home #splash img{
-        
+    #home #splash img.mobile{
+        width: 351px;
+        height: 760px;
     }
 
 }
