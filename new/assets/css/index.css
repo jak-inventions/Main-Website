@@ -30,12 +30,14 @@
 
 /* Classes */
 
-.box{
+.card{
     width: 960px;
     padding: 25px;
     background: white;
     border: 1px solid #e0e0e0;
     border-radius: 15px;
+    display: block;
+    margin: auto;
 }
 
 .box h1{
@@ -85,14 +87,6 @@ header a{
 
 header a:hover{
     opacity: 0.6;
-}
-
-section:not(#home){
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 h1, h2, h3{
