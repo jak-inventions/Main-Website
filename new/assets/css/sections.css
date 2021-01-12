@@ -2,7 +2,7 @@
 
 #home{
     margin: 0px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,20 +18,20 @@
     font-weight: lighter;
 }
 
+#home #splash img{
+    border-radius: 15px;
+}
+
 #home #splash img.desktop{
     display: block;
     margin: auto;
+    margin-top: 25px;
     width: 1080px;
     height: 608px;
 }
 
 #home #splash img.mobile{
     display: none;
-}
-
-#home #splash img{
-    margin-top: 25px;
-    border-radius: 15px;
 }
 
 /* About */
@@ -70,14 +70,22 @@
 
 @media (max-width: 1080px) {
 
+    #home{
+        display: block;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
     #home #splash img.desktop{
         display: none;
     }
 
     #home #splash img.mobile{
         display: block;
-        width: 1080px;
-        height: 2340px;
+        margin: auto;
+        margin-top: 25px;
+        width: 500px;
+        height: 1080px;
     }
 
 }
