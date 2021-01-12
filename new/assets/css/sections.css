@@ -18,13 +18,20 @@
     font-weight: lighter;
 }
 
-#home #splash img{
+#home #splash img.desktop{
     display: block;
     margin: auto;
+    width: 1080px;
+    height: 608px;
+}
+
+#home #splash img.mobile{
+    display: none;
+}
+
+#home #splash img{
     margin-top: 25px;
     border-radius: 15px;
-    width: 960px;
-    height: 540px;
 }
 
 /* About */
@@ -40,25 +47,11 @@
 
 /* Other Screen Sizes */
 
-/* Desktop Large */
-
-@media (max-width: 1920px) {
-
-    #home #splash img{
-        width: px;
-        height: px;
-    }
-
-}
-
-/* Desktop Small */
+/* Desktop */
 
 @media (max-width: 1560px) {
 
-    #home #splash img{
-        width: px;
-        height: px;
-    }
+    
 
 }
 
@@ -66,31 +59,25 @@
 
 @media (max-width: 1350px) {
 
-    #home #splash img{
-        width: px;
-        height: px;
-    }
-
-}
-
-/* Tablets */
-
-@media (max-width: 1024px) {
-
-    #home #splash img{
-        width: px;
-        height: px;
+    #home #splash img.desktop{
+        width: 960px;
+        height: 540px;
     }
 
 }
 
 /* Mobile */
 
-@media (max-width: 850px) {
+@media (max-width: 1080px) {
 
-    #home #splash img{
-        width: px;
-        height: px;
+    #home #splash img.desktop{
+        display: none;
+    }
+
+    #home #splash img.mobile{
+        display: block;
+        width: 1080px;
+        height: 2340px;
     }
 
 }
@@ -100,8 +87,7 @@
 @media (max-width: 600px) {
 
     #home #splash img{
-        width: px;
-        height: px;
+        
     }
 
 }
