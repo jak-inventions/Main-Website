@@ -1,4 +1,107 @@
 /* Home */
+
+#home{
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home #splash{
+    margin: 0px;
+}
+
+#home #splash figcaption{
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+#home #splash img{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    width: 960px;
+    height: 540px;
+}
+
 /* About */
+
+
+
 /* Software */
+
+
+
 /* Contact Us*/
+
+
+/* Other Screen Sizes */
+
+/* Desktop Large */
+
+@media (max-width: 1920px) {
+
+    #home #splash img{
+        width: px;
+        height: px;
+    }
+
+}
+
+/* Desktop Small */
+
+@media (max-width: 1560px) {
+
+    #home #splash img{
+        width: px;
+        height: px;
+    }
+
+}
+
+/* Laptops */
+
+@media (max-width: 1350px) {
+
+    #home #splash img{
+        width: px;
+        height: px;
+    }
+
+}
+
+/* Tablets */
+
+@media (max-width: 1024px) {
+
+    #home #splash img{
+        width: px;
+        height: px;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width: 850px) {
+
+    #home #splash img{
+        width: px;
+        height: px;
+    }
+
+}
+
+/* Smaller Mobile */
+
+@media (max-width: 600px) {
+
+    #home #splash img{
+        width: px;
+        height: px;
+    }
+
+}
