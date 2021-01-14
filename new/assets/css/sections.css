@@ -80,6 +80,32 @@
     text-align: center;
 }
 
+.wallpaper figcaption{
+    text-align: center;
+    font-size: 24px;
+    margin: 25px;
+}
+
+.wallpaper .desktop img{
+    width: 960px;
+    height: 540px;
+    border-radius: 15px;
+}
+
+.wallpaper .desktop .buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.wallpaper .desktop .buttons button{
+    margin: 10px;
+}
+
+.wallpaper .mobile{
+    display: none;
+}
+
 /* Contact Us*/
 
 #contact-us h1{

@@ -83,6 +83,29 @@ hr.large{
     width: 75%;
 }
 
+button{
+    border: 0px solid black;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+button:hover{
+    background-color: white;
+}
+
+button:active{
+    background-color: lightgrey;
+}
+
+button:focus{
+    outline: none;
+}
+
 /* Other */
 
 *{
