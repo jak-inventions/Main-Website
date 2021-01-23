@@ -41,7 +41,7 @@
 
 #software .contents{
     display: flex;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 #software .contents .text{
@@ -65,11 +65,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s border-radius;
+    transition: 0.25s border-radius;
 }
 
 #software .contents .grid .block:hover{
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 #software .contents .grid .block img{
