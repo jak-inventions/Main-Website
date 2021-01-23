@@ -62,6 +62,19 @@
     height: 150px;
     background: whitesmoke;
     border: 1px solid darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s border-radius;
+}
+
+#software .contents .grid .block:hover{
+    border-radius: 30px;
+}
+
+#software .contents .grid .block img{
+    width: 125px;
+    height: 125px;
 }
 
 /* Wallpapers */
