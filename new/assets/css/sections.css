@@ -60,12 +60,14 @@
 #software .contents .grid .block{
     width: 150px;
     height: 150px;
+    margin: 0px;
     background: whitesmoke;
     border: 1px solid darkgrey;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.3s border-radius;
+    cursor: pointer;
 }
 
 #software .contents .grid .block:hover{
