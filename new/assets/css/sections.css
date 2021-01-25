@@ -60,23 +60,23 @@
 #software .contents .grid .block{
     width: 150px;
     height: 150px;
-    margin: 0px;
-    background: whitesmoke;
-    border: 1px solid darkgrey;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.3s border-radius;
     cursor: pointer;
 }
 
-#software .contents .grid .block:hover{
+#software .contents .grid .block img:hover{
     border-radius: 30px;
 }
 
 #software .contents .grid .block img{
     width: 125px;
     height: 125px;
+    padding: 25px;
+    transition: 0.3s border-radius;
+    background-color: whitesmoke;
+    border: 1px solid darkgrey;
 }
 
 /* Wallpapers */
