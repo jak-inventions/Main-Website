@@ -64,7 +64,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
 }
 
 #software .contents .grid .block img{
@@ -74,14 +73,21 @@
     transition: 0.3s border-radius;
     background-color: whitesmoke;
     border: 1px solid darkgrey;
+    cursor: pointer;
 }
 
 #software .contents .grid .block span{
     margin: 10px;
+    opacity: 0;
+    transition: 0.3s opacity;
 }
 
 #software .contents .grid .block img:hover{
     border-radius: 30px;
+}
+
+#software .contents .grid .block img:hover + span{
+    opacity: 1;
 }
 
 /* Wallpapers */
