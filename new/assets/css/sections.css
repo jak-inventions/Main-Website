@@ -39,17 +39,7 @@
 
 /* Software */
 
-#software .contents{
-    display: flex;
-    margin-top: 50px;
-}
-
-#software .contents .text{
-    width: 50%;
-}
-
-#software .contents .grid{
-    width: 50%;
+#software .grid{
     display: grid;
     grid-template-columns: 150px 150px;
     grid-gap: 25px 75px;
@@ -57,7 +47,7 @@
     justify-content: center;
 }
 
-#software .contents .grid .block{
+#software .block{
     width: fit-content;
     height: fit-content;
     display: flex;
@@ -66,7 +56,7 @@
     justify-content: center;
 }
 
-#software .contents .grid .block img{
+#software .block img{
     width: 125px;
     height: 125px;
     padding: 25px;
@@ -76,17 +66,18 @@
     cursor: pointer;
 }
 
-#software .contents .grid .block span{
+#software .block span{
     margin: 10px;
     opacity: 0;
     transition: 0.3s opacity;
+    cursor: default;
 }
 
-#software .contents .grid .block img:hover{
+#software .block a:hover > img{
     border-radius: 50px;
 }
 
-#software .contents .grid .block img:hover + span{
+#software .block a:hover + span{
     opacity: 1;
 }
 
