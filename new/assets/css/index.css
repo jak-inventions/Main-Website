@@ -26,19 +26,6 @@
     text-align: center;
 }
 
-.card section .contents{
-    display: flex;
-    margin-top: 50px;
-}
-
-.card section .contents .text{
-    width: 50%;
-}
-
-.card section .contents .grid{
-    width: 50%;
-}
-
 /* Tags */
 
 html{

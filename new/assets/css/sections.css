@@ -39,6 +39,19 @@
 
 /* Software */
 
+#software .contents{
+    display: flex;
+    margin-top: 50px;
+}
+
+#software .contents .text{
+    width: 50%;
+}
+
+#software .contents .grid{
+    width: 50%;
+}
+
 #software .grid{
     display: grid;
     grid-template-columns: 150px 150px;
