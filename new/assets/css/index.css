@@ -3,14 +3,14 @@
 #copyright{
     text-align: center;
     font-size: 20px;
-    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 #links{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #links a{
