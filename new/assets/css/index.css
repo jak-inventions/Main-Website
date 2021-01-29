@@ -3,8 +3,31 @@
 #copyright{
     text-align: center;
     font-size: 20px;
-    padding-top: 15px;
     padding-bottom: 15px;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#links a{
+    margin: 5px;
+    transition: 0.25s opacity;
+}
+
+#links i{
+    font-size: 32px;
+}
+
+#links a:hover{
+    opacity: 0.8;
+}
+
+#links a:active{
+    opacity: 0.6;
 }
 
 /* Classes */
