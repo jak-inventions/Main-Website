@@ -41,7 +41,8 @@
 }
 
 .card section{
-    padding: 10px 10px 50px 50px;
+    padding: 25px;
+    padding-bottom: 0px;
 }
 
 .card section h1{
