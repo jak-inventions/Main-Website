@@ -38,11 +38,13 @@
     background: white;
     border: 1px solid darkgrey;
     border-radius: 25px;
+    padding: 25px;
 }
 
 .card section{
     padding: 25px;
     padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .card section h1{
