@@ -7,6 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="C:\Users\Surface\Desktop\Github\Main-Website\new\assets\img\icon\minimal.png"
    width="500"
    height="500"
    viewBox="0 0 132.29166 132.29167"
@@ -23,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5158082"
-     inkscape:cx="287.20177"
-     inkscape:cy="314.663"
+     inkscape:zoom="1.0718383"
+     inkscape:cx="218.14256"
+     inkscape:cy="220.89186"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -55,9 +58,10 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
+       inkscape:transform-center-x="-1e-06"
        id="path839"
-       style="fill:#333333;stroke:#333333;stroke-width:13.1451;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:transform-center-y="-9.2746147"
-       d="M 99.261278,93.969614 H 66.145832 33.030384 L 49.588107,66.145766 66.145832,38.321922 82.703557,66.145766 Z" />
+       style="fill:#333333;stroke:#333333;stroke-width:17.3967;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:transform-center-y="-12.274321"
+       d="M 109.97187,99.969026 H 66.145832 22.319794 L 44.232812,63.146059 66.145832,26.323098 88.058853,63.146059 Z" />
   </g>
 </svg>

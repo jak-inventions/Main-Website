@@ -69,10 +69,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: 0.3s border-radius;
 }
 
 #about .circle{
     display: inline-block;
+}
+
+#about .circle:hover > img{
+    border-radius: 0px;
 }
 
 /* Software */
