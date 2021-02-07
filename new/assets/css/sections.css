@@ -51,7 +51,7 @@
 #about .grid{
     display: grid;
     grid-template-columns: 150px 150px;
-    grid-gap: 25px 50px;
+    grid-gap: 50px 50px;
     align-items: center;
     justify-content: center;
     padding: 25px;
