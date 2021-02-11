@@ -161,8 +161,8 @@
 }
 
 #wallpapers .wallpaper img{
-    width: 768px;
-    height: 432px;
+    width: 850px;
+    height: 478px;
     border-radius: 20px;
     transition: 0.5s box-shadow;
 }
