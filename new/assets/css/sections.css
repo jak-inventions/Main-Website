@@ -149,16 +149,8 @@
 
 /* Wallpapers */
 
-/* Contact Us*/
-
-#contact-us .contents{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-#contact-us .contents p{
-    font-size: 18px;
-    text-align: center;
+#wallpapers .contents{
+    margin: 50px;
 }
 
 /* Other Screen Sizes */
