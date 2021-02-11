@@ -151,6 +151,40 @@
 
 #wallpapers .contents{
     margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wallpapers .wallpaper{
+    position: relative;
+}
+
+#wallpapers .wallpaper img{
+    width: 768px;
+    height: 432px;
+    border-radius: 20px;
+    transition: 0.5s box-shadow;
+}
+
+#wallpapers .wallpaper figcaption{
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 15px;
+    font-size: 28px;
+    font-weight: lighter;
+    opacity: 0;
+    text-align: center;
+    transition: 0.5s opacity;
+}
+
+#wallpapers .wallpaper:hover > img{
+    box-shadow: inset 0 0 100px black;
+}
+
+#wallpapers .wallpaper:hover > figcaption{
+    opacity: 1;
 }
 
 /* Other Screen Sizes */
