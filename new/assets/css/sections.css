@@ -167,6 +167,11 @@
     transition: 0.5s box-shadow;
 }
 
+#wallpapers .hover-settings{
+    transition: 0.5s opacity;
+    opacity: 0;
+}
+
 #wallpapers .wallpaper figcaption{
     position: absolute;
     width: 100%;
@@ -174,16 +179,22 @@
     top: 15px;
     font-size: 28px;
     font-weight: lighter;
-    opacity: 0;
     text-align: center;
-    transition: 0.5s opacity;
 }
 
-#wallpapers .wallpaper:hover > img{
-    box-shadow: inset 0 0 100px black;
+#wallpapers .buttons{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
 
-#wallpapers .wallpaper:hover > figcaption{
+#wallpapers .buttons button{
+    margin: 10px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+#wallpapers .wallpaper:hover > .hover-settings{
     opacity: 1;
 }
 
