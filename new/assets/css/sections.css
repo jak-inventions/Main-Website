@@ -164,11 +164,10 @@
     width: 850px;
     height: 478px;
     border-radius: 20px;
-    transition: 0.5s box-shadow;
 }
 
 #wallpapers .hover-settings{
-    transition: 0.5s opacity;
+    transition: 0.25s opacity;
     opacity: 0;
 }
 
