@@ -51,12 +51,15 @@
 
 #about .text{
     display: inline-block;
-    padding-bottom: 100px;
 }
 
 #about .text h1{
     font-size: 32px;
     margin: 0px;
+}
+
+#about .text h2{
+    font-size: 24px;
 }
 
 #about .text hr{
@@ -65,8 +68,12 @@
     margin-bottom: 25px;
 }
 
+#about .text hr.left{
+    margin-left: 0px;
+}
+
 #about .text p{
-    font-size: 18px;
+    font-size: 16px;
     margin: 0px;
 }
 
