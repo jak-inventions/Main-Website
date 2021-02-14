@@ -190,13 +190,16 @@
 
 #wallpapers .contents{
     margin: 50px;
+    margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #wallpapers .wallpaper{
     position: relative;
+    margin: 50px;
 }
 
 #wallpapers .wallpaper img{
