@@ -30,7 +30,7 @@
     width: 1080px;
     box-sizing: border-box;
     background: white;
-    border: 1px solid darkgrey;
+    border: 1px solid lightgrey;
     border-radius: 25px;
 }
 
@@ -81,7 +81,7 @@ header figure figcaption{
 }
 
 nav{
-    border-bottom: 1px solid darkgrey;
+    border-bottom: 1px solid lightgrey;
     position: sticky;
     width: 100%;
     top: 0px;
