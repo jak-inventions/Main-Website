@@ -37,8 +37,13 @@
 
 /* About */
 
+#about{
+    padding-top: 50px;
+}
+
 #about .contents{
     padding: 25px;
+    padding-bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,6 +77,7 @@
     align-items: center;
     justify-content: center;
     padding: 25px;
+    padding-bottom: 0px;
     padding-left: 50px;
 }
 
@@ -115,9 +121,14 @@
 
 /* Apps */
 
+#apps{
+    padding-top: 75px;
+}
+
 #apps .contents{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 0px;
     justify-content: center;
     align-items: center;
 }
@@ -165,6 +176,10 @@
 }
 
 /* Wallpapers */
+
+#wallpapers{
+    padding-top: 75px;
+}
 
 #wallpapers .contents{
     margin: 50px;
