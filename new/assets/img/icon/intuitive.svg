@@ -32,9 +32,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="270.53481"
-     inkscape:cx="372.6117"
-     inkscape:zoom="1"
+     inkscape:cy="228.84545"
+     inkscape:cx="23.534522"
+     inkscape:zoom="0.5"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -59,7 +59,7 @@
      inkscape:label="Layer 1">
     <path
        sodipodi:nodetypes="csssc"
-       d="m 13.229166,66.145832 c 0,0 72.251725,-21.166666 84.199667,-21.166666 11.947937,0 21.633647,9.47664 21.633647,21.166666 0,11.690025 -9.68571,21.166662 -21.633647,21.166662 -11.947942,0 -84.177214,-21.166662 -84.199667,-21.166662 z"
+       d="m 119.06248,66.145828 c 0,0 -72.251725,21.166666 -84.199667,21.166666 -11.947937,0 -21.633647,-9.47664 -21.633647,-21.166666 0,-11.690025 9.68571,-21.166662 21.633647,-21.166662 11.947942,0 84.177217,21.166662 84.199667,21.166662 z"
        style="fill:#333333;stroke-width:2.95807;stroke-linecap:round;stroke-linejoin:round"
        id="path847" />
   </g>
