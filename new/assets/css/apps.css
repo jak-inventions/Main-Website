@@ -54,6 +54,11 @@
     border-color: green;
 }
 
+#web-version.grey:active{
+    background-color: lightgrey;
+    border-color: grey;
+}
+
 body{
     display: flex;
     align-items: center;
