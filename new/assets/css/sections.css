@@ -78,6 +78,17 @@
     margin: 0px;
 }
 
+#about .top-words, .bottom-words{
+    display: flex;
+    flex-direction: row;
+}
+
+#about .top-words article, #about .bottom-words article{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 #about .grid{
     display: grid;
     grid-template-columns: 150px 150px;
