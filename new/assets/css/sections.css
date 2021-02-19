@@ -38,11 +38,12 @@
 /* About */
 
 #about{
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
 #about .contents{
     padding: 25px;
+    padding-top: 0px;
     padding-bottom: 0px;
     display: flex;
     align-items: center;
