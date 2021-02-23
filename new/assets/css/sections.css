@@ -257,6 +257,11 @@
     opacity: 1;
 }
 
+#wallpapers #attribution{
+    width: 600px;
+    font-size: 18px;
+}
+
 /* Other Screen Sizes */
 
 /* Laptops */
