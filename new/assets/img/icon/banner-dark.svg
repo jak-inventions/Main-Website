@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="banner.svg"
+   sodipodi:docname="banner-dark.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg843"
    version="1.1"
    viewBox="0 0 507.99999 285.75001"
    height="1080"
    width="1920"
-   inkscape:export-filename="C:\Users\Jak\Desktop\github\Main-Website\assets\img\banner.png"
+   inkscape:export-filename="C:\Users\Surface\Desktop\Github\Main-Website\new\assets\img\icon\banner.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -32,9 +32,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="211.37311"
-     inkscape:cx="256.42108"
-     inkscape:zoom="0.37239456"
+     inkscape:cy="544.24057"
+     inkscape:cx="1076.08"
+     inkscape:zoom="0.68400614"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,9 +64,9 @@
        height="285.75"
        width="508"
        id="rect1406"
-       style="fill:#ffffff;stroke-width:24.3773;stroke-linecap:square;fill-opacity:1" />
+       style="fill:#1a1a1a;stroke-width:24.3773;stroke-linecap:square;fill-opacity:1" />
     <rect
-       style="display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:5.31339;stroke-linecap:round"
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:5.31339;stroke-linecap:round"
        id="rect34"
        width="27.550215"
        height="3.0611351"
@@ -78,7 +78,7 @@
     <path
        sodipodi:nodetypes="cssssccc"
        id="rect81"
-       style="display:inline;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:21.8642;stroke-linecap:round"
+       style="display:inline;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:21.8642;stroke-linecap:round"
        d="m 220.2749,166.85809 62.77263,-62.77123 c 1.19916,-1.19914 3.12996,-1.19914 4.32915,0 l 5.41143,5.41132 c 1.19919,1.19914 1.19919,3.1299 0,4.32904 l -62.77263,62.77123 c -6.50434,6.50419 -15.69315,5.95244 -15.69315,5.95244 0,0 -0.51715,-9.22322 5.95257,-15.6928 z" />
   </g>
 </svg>
