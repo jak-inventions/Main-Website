@@ -80,6 +80,10 @@
     margin: 0px;
 }
 
+#about .text .intro{
+    padding: 10px;
+}
+
 #about .top-words, .bottom-words{
     display: flex;
     flex-direction: row;
