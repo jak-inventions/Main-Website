@@ -1,4 +1,3 @@
-
 // Nav stick code
 
 const el = document.querySelector("#navigation")
@@ -8,4 +7,10 @@ const observer = new IntersectionObserver(
 );
 
 observer.observe(el);
+
+// Download function for wallpapers
+
+function download(directory) {
+  document.getElementById('download-frame').src = directory;
+}
 
