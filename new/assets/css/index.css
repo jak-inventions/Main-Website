@@ -35,7 +35,8 @@
     box-sizing: border-box;
     background: white;
     border: 1px solid lightgrey;
-    border-radius: 25px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px lightgrey;
 }
 
 .card section{
@@ -101,7 +102,7 @@ nav{
 
 nav.pinned{
     background-color: white;
-    box-shadow: 0px 0px 5px 0px lightgrey;
+    box-shadow: 0px 0px 10px 0px lightgrey;
 }
 
 nav img{
