@@ -11,6 +11,7 @@ observer.observe(el);
 // Download function for wallpapers
 
 function download(wallpaper, res) {
+  res = $(window).width() < 850 ? 'Mobile' : res;
   let a = $('<a>')
     .attr('href', `assets/img/wallpapers/${wallpaper}/${wallpaper}-${res}.png`)
     .attr('download', wallpaper + '-' + res + '.png')
