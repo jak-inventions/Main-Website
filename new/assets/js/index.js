@@ -10,7 +10,12 @@ observer.observe(el);
 
 // Download function for wallpapers
 
-function download(directory) {
-  document.getElementById('download-frame').src = directory;
+function download(wallpaper, res) {
+  let a = $('<a>')
+    .attr('href', `assets/img/wallpapers/${wallpaper}/${wallpaper}-${res}.png`)
+    .attr('download', wallpaper + '-' + res + '.png')
+    .appendTo('body');
+  a[0].click();
+  a.remove();
 }
 
