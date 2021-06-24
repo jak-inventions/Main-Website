@@ -245,7 +245,7 @@
     position: absolute;
     width: 100%;
     color: white;
-    top: 15px;
+    top: 25px;
     font-size: 28px;
     font-weight: lighter;
     text-align: center;
@@ -278,6 +278,11 @@
 
 #wallpapers #attribution{
     width: 600px;
+    font-size: 18px;
+}
+
+#wallpapers #wallpapersBlurb{
+    margin-top: 25px;
     font-size: 18px;
 }
 

@@ -20,3 +20,12 @@ function download(wallpaper, res) {
   a.remove();
 }
 
+function downloadSrc(wallpaper, extension) {
+  let a = $('<a>')
+    .attr('href', `assets/img/wallpapers/${wallpaper}/${wallpaper}.${extension}`)
+    .attr('download', wallpaper + '.' + extension)
+    .appendTo('body');
+  a[0].click();
+  a.remove();
+}
+
